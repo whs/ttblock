@@ -11,16 +11,6 @@ import merge from 'lodash.merge';
 const DEBUG = !process.argv.includes('release');
 const VERBOSE = process.argv.includes('verbose');
 const WATCH = global.watch;
-const AUTOPREFIXER_BROWSERS = [
-  'Android 2.3',
-  'Android >= 4',
-  'Chrome >= 35',
-  'Firefox >= 31',
-  'Explorer >= 9',
-  'iOS >= 7',
-  'Opera >= 12',
-  'Safari >= 7.1',
-];
 const JS_LOADER = {
   test: /\.jsx?$/,
   include: [
@@ -81,15 +71,6 @@ const config = {
       },
     ],
   },
-  postcss: function plugins(bundler) {
-    return [
-      require('postcss-import')({ addDependencyTo: bundler }),
-      require('precss')(),
-      require('autoprefixer')({
-        browsers: AUTOPREFIXER_BROWSERS,
-      }),
-    ];
-  },
 };
 
 // Configuration for the client-side bundle
@@ -144,8 +125,8 @@ const appConfig = merge({}, config, {
       }) : JS_LOADER,
       ...config.module.loaders,
       {
-        test: /\.scss$/,
-        loaders: ['style-loader', 'css-loader', 'postcss-loader'],
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader?modules'],
       },
     ],
   },
@@ -176,8 +157,8 @@ const pagesConfig = merge({}, config, {
       JS_LOADER,
       ...config.module.loaders,
       {
-        test: /\.scss$/,
-        loaders: ['css-loader', 'postcss-loader'],
+        test: /\.css$/,
+        loaders: ['css-loader?modules'],
       },
     ],
   },

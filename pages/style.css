@@ -1,0 +1,70 @@
+.container{
+	width: 960px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.step{
+	width: 1170px;
+	margin: auto;
+}
+.step::after{
+	display: block;
+	content: "";
+	clear: both;
+	padding-bottom: 40px;
+	border-bottom: #ddd solid 1px;
+	margin-bottom: 40px;
+}
+
+.preamble{
+	font-size: 16pt;
+	margin: 60px 40px;
+	line-height: 2em;
+}
+
+.figure{
+	width: 640px;
+	height: 360px;
+	background-color: #ccc;
+	float: left;
+}
+.description{
+	width: 460px;
+	margin-left: 20px;
+	float: left;
+}
+
+.profession{
+	float: left;
+	margin-right: 20px;
+}
+
+.warn{
+	color: #EA7D00;
+}
+.tip{
+	color: #005AA1;
+}
+.warn:before, .tip:before{
+  font: normal normal normal 16px/1 octicons;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 5px;
+}
+.warn:before{
+	content: '\f02d';
+}
+.tip:before{
+	content: '\f059'
+}
+
+.amber{
+	color: #DBD004;
+}

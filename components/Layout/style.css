@@ -1,0 +1,21 @@
+a{
+	text-decoration: none;
+	color: #06812E;
+}
+
+h1{
+	font-size: 42pt;
+}
+h3{
+	margin-top: -20px;
+	font-size: 20pt;
+}
+h4{
+	font-size: 18pt;
+	margin: 0;
+}
+
+body{
+	line-height: 1.8em;
+	font-family: Merriweather;
+}
