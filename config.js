@@ -1,5 +1,5 @@
 export default {
-  title: 'Triple Trouble Guide',
+  title: 'Triple Trouble Blocking Guide',
   description: '',
   googleAnalyticsId: 'UA-XXXXX-X',
 };
