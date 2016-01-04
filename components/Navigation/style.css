@@ -14,6 +14,9 @@
 	display: inline;
 	margin-left: 20px;
 }
+.nav img{
+	vertical-align: middle;
+}
 .main{
 	font-size: 120%;
 	font-weight: bold;

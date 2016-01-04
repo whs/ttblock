@@ -10,7 +10,7 @@ function Navigation() {
           <a href="/" onClick={Link.handleClick}>Triple Trouble Blocking Guide</a>:
         </li>
         <li>
-          <a href="/elementalist" onClick={Link.handleClick}>Elementalist</a>
+          <a href="/elementalist" onClick={Link.handleClick}><img src="/Elementalist_tango_icon_20px.png" /> Elementalist</a>
         </li>
         <li>
           <a href="/animation" onClick={Link.handleClick}>Wurm Animation</a>
