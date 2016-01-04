@@ -24,7 +24,7 @@ export default class extends Component {
 				</div>
 				<div className={style.container} id="weapon">
 					<h4>Weapons</h4>
-					<p>A <strong>Focus</strong> is required. Usually paired with <strong>Dagger</strong> for <GwSkill id={5525} /> (Earth Skill 2), another reflect, but is not really used here.</p>
+					<div><p />A <strong>Focus</strong> is required. Usually paired with <strong>Dagger</strong> for <GwSkill id={5525} /> (Earth Skill 2), another reflect, but is not really used here.</div>
 					<p>If you don't already have one you don't need to get an exotic, as we are looking for invulnerability here and not damage. You can use the trading post at Marshwatch Haven.</p>
 				</div>
 				<div className={style.container} id="spec">
@@ -69,7 +69,8 @@ export default class extends Component {
 					<div className={style.description}>
 						<h4>Step 4</h4>
 						<p>The game will show 3 <em>Invulnerable</em> messages, one per direction if you have blocked husks. If there are 9, you have blocked eggs.</p>
-						<p className={style.tip}>Since husk has longer cooldown, you can use <GwSkill id={5530} /> (Air 4) to block eggs if you know it will be eggs. It is safer, as it does not requires precise positioning. However, with its long cast time it should be casted immediately after the spit animation start.</p>
+						<p />
+						<div className={style.tip}>Since husk has longer cooldown, you can use <GwSkill id={5530} /> (Air 4) to block eggs if you know it will be eggs. It is safer, as it does not requires precise positioning. However, with its long cast time it should be casted immediately after the spit animation start.</div>
 					</div>
 				</div>
 				<div className={style.container}>
