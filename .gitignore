@@ -4,3 +4,7 @@
 build
 node_modules
 npm-debug.log
+apidata
+static/specializations
+static/skills
+static/traits

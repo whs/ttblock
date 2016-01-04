@@ -1,0 +1,16 @@
+.skill img{
+	vertical-align: middle;
+	height: 48px;
+	margin-right: 10px;
+}
+.cast{
+	float: right;
+	margin-left: 10px;
+}
+.facts{
+	list-style: none;
+	padding: 0;
+}
+.facts img{
+	height: 24px;
+}

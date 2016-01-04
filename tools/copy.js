@@ -6,6 +6,7 @@
 
 import task from './lib/task';
 import cp from './lib/copy';
+import fs from './lib/fs';
 
 /**
  * Copies static files such as robots.txt, favicon.ico to the

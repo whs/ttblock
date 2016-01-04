@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "GwSkill",
+  "main": "./GwSkill.js"
+}
