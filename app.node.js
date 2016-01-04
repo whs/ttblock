@@ -479,7 +479,9 @@ module.exports =
   		_get(Object.getPrototypeOf(GwSkill.prototype), 'constructor', this).apply(this, arguments);
 
   		this.state = {
-  			tooltip: false
+  			tooltip: false,
+  			top: 0,
+  			left: -400
   		};
   	}
 
@@ -1046,8 +1048,9 @@ module.exports =
   						'Weapons'
   					),
   					_react2['default'].createElement(
-  						'p',
+  						'div',
   						null,
+  						_react2['default'].createElement('p', null),
   						'A ',
   						_react2['default'].createElement(
   							'strong',
@@ -1226,8 +1229,9 @@ module.exports =
   							),
   							' messages, one per direction if you have blocked husks. If there are 9, you have blocked eggs.'
   						),
+  						_react2['default'].createElement('p', null),
   						_react2['default'].createElement(
-  							'p',
+  							'div',
   							{ className: _styleCss2['default'].tip },
   							'Since husk has longer cooldown, you can use ',
   							_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5530 }),
