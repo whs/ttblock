@@ -1,0 +1,51 @@
+.step{
+	width: 1170px;
+	margin: auto;
+}
+.step::after{
+	display: block;
+	content: "";
+	clear: both;
+	padding-bottom: 40px;
+	border-bottom: #ddd solid 1px;
+	margin-bottom: 40px;
+}
+.description{
+	width: 460px;
+	margin-left: 20px;
+	float: left;
+}
+.figure{
+	width: 640px;
+	height: 359px;
+	background-color: #ccc;
+	float: left;
+}
+.figureItem img, .figureItem video{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+.figureList{
+	margin: 10px 0;
+}
+
+.figureList::after{
+	display: block;
+	content: "";
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.figureList .figureItem{
+	width: 120px;
+	float: left;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.figureList .active .figureItem{
+	border: #e0e0e0 solid 5px;
+	margin: 5px;
+}

@@ -10,9 +10,7 @@ class GwSkill extends Component {
 	};
 
 	state = {
-		tooltip: false,
-		top: 0,
-		left: -400
+		tooltip: false
 	};
 
 	getDetail(){

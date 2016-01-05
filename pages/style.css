@@ -3,35 +3,12 @@
 	margin: auto;
 	margin-bottom: 40px;
 }
-.step{
-	width: 1170px;
-	margin: auto;
-}
-.step::after{
-	display: block;
-	content: "";
-	clear: both;
-	padding-bottom: 40px;
-	border-bottom: #ddd solid 1px;
-	margin-bottom: 40px;
-}
+
 
 .preamble{
 	font-size: 16pt;
 	margin: 60px 40px;
 	line-height: 2em;
-}
-
-.figure{
-	width: 640px;
-	height: 360px;
-	background-color: #ccc;
-	float: left;
-}
-.description{
-	width: 460px;
-	margin-left: 20px;
-	float: left;
 }
 
 .profession{

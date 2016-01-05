@@ -5,6 +5,7 @@
  */
 
 import React, { Component, PropTypes } from 'react';
+import style from './style.css';
 
 export default class extends Component {
 
@@ -14,7 +15,7 @@ export default class extends Component {
 
   render() {
     return (
-      <div>
+      <div className={style.container}>
         <h1>Error</h1>
         <pre>{
           this.props.error ?
