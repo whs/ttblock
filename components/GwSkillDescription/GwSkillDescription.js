@@ -18,9 +18,8 @@ class GwSkill extends Component {
 				<div className={style.cast}>
 					{this.getDuration()}
 				</div>
-				<img src={skillDetail.icon} />
-				{skillDetail.name}
-				<div>{skillDetail.description}</div>
+				<h4>{skillDetail.name}</h4>
+				<div className={style.description}>{skillDetail.description}</div>
 				<ul className={style.facts}>
 					{this.renderFacts()}
 				</ul>
@@ -33,7 +32,7 @@ class GwSkill extends Component {
 			let data = fact.value || fact.duration || fact.percent || fact.field_type || fact.distance || fact.hit_count;
 			let image = <img src={fact.icon} />;
 			if(!fact.icon){
-				image = null;
+				return null;
 			}
 			if(data){
 				return (

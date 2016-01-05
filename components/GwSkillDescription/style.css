@@ -1,7 +1,15 @@
-.skill img{
-	vertical-align: middle;
-	height: 48px;
-	margin-right: 10px;
+.skill{
+	font-size: 10pt;
+	line-height: 1.2em;
+}
+.skill h4{
+	font-weight: bold;
+	display: inline;
+	color: #ffcc77;
+	font-size: inherit;
+}
+.description{
+	margin: 10px 0;
 }
 .cast{
 	float: right;
@@ -10,7 +18,16 @@
 .facts{
 	list-style: none;
 	padding: 0;
+	color: #aaa;
+	margin: 0;
+}
+.facts li{
+	height: 32px;
+	padding-left: 40px;
 }
 .facts img{
-	height: 24px;
+	margin-left: -40px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 5px;
 }

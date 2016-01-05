@@ -1,13 +1,16 @@
 .skill{
-	color: red;
-	cursor: default;
 	display: inline;
+	white-space: nowrap;
 }
-.tooltip{
-	display: none;
-	position: absolute;
+.skill img{
+	vertical-align: middle;
+	margin: 0 5px;
+	width: 1.7em;
+}
+:global(.Popover-body){
 	background: rgba(0,0,0,0.9);
-	width: 400px;
+	width: 300px;
 	color: white;
 	padding: 10px;
+	text-shadow: black 0px 1px 0px;
 }

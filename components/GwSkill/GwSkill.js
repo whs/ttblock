@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from './style.css';
 import context from './context';
 import GwSkillDescription from '../GwSkillDescription';
+import Popover from 'react-popover';
 
 class GwSkill extends Component {
 	static propTypes = {
@@ -14,20 +15,33 @@ class GwSkill extends Component {
 		left: -400
 	};
 
+	getDetail(){
+		return context('./' + this.props.id + '.json');
+	}
+
 	render(){
-		let skillDetail = context('./' + this.props.id + '.json');
+		let skillDetail = this.getDetail();
 		return (
-			<div className={style.skill} onMouseOver={this.onMouseOver.bind(this)} onMouseMove={this.onMouseOver.bind(this)} onMouseOut={this.onMouseOut.bind(this)}>
-				{skillDetail.name}
-				<div className={style.tooltip} style={{display: this.state.tooltip ? 'block' : 'none', top: this.state.top + 15, left: this.state.left + 15}}>
-					<GwSkillDescription id={this.props.id} />
+			<Popover isOpen={this.state.tooltip} body={<GwSkillDescription id={this.props.id} />} preferPlace="column">
+				<div className={style.skill} onMouseOver={this.onMouseOver.bind(this)} onMouseOut={this.onMouseOut.bind(this)}>
+					<a href={this.getSkillLink()} target="_blank">
+						<img src={skillDetail.icon} />
+						{skillDetail.name}
+					</a>
 				</div>
-			</div>
+			</Popover>
 		);
 	}
 
+	getSkillLink(){
+		let skillDetail = this.getDetail();
+		let name = skillDetail.name.replace(/ /g, '_');
+
+		return `https://wiki.guildwars2.com/wiki/${name}`;
+	}
+
 	onMouseOver(e){
-		this.setState({tooltip: true, top: e.pageY, left: e.pageX});
+		this.setState({tooltip: true});
 	}
 	onMouseOut(){
 		this.setState({tooltip: false});	
