@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import style from './style.css';
 import Link from '../components/Link';
 import GwSkill from '../components/GwSkill';
+import GwSpec from '../components/GwSpec';
 import { Step, Figure } from '../components/Step';
 
 export default class extends Component {
@@ -30,6 +31,10 @@ export default class extends Component {
 				</div>
 				<div className={style.container} id="spec">
 					<h4>Specialization</h4>
+					<p />
+					<GwSpec id={26} highlight={[282, 277, 1674]} />
+					<GwSpec id={41} highlight={[232, 214, 226]} />
+					<GwSpec id={48} highlight={[1952, 2015, 1986]} />
 				</div>
 				<div id="step"></div>
 				<Step number={1}>
