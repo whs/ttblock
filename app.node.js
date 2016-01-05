@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(32);
+  var _reactDom = __webpack_require__(34);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -81,13 +81,13 @@ module.exports =
 
   var routes = {
     '/404': function _() {
-      return __webpack_require__(13);
-    }, '/500': function _() {
       return __webpack_require__(14);
-    }, '/elementalist': function elementalist() {
+    }, '/500': function _() {
       return __webpack_require__(15);
-    }, '/': function _() {
+    }, '/elementalist': function elementalist() {
       return __webpack_require__(16);
+    }, '/': function _() {
+      return __webpack_require__(17);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -216,6 +216,27 @@ module.exports =
 /* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+
+
+  // module
+  exports.push([module.id, "._37FNPHY8dxUSFT6J_JNfhJ{\n\twidth: 960px;\n\tmargin: auto;\n\tmargin-bottom: 40px;\n}\n\n\n._22pvPhtueVAhqDXdGw6UE8{\n\tfont-size: 16pt;\n\tmargin: 60px 40px;\n\tline-height: 2em;\n}\n\n._1bTTiTt6orUT4sNG824N8Y{\n\tfloat: left;\n\tmargin-right: 20px;\n}\n\n.wYsdPNAibapHwnSEZvFw-{\n\tcolor: #EA7D00;\n}\n._1SpsGY8eli4YKN7m_2L1kn{\n\tcolor: #005AA1;\n}\n.wYsdPNAibapHwnSEZvFw-:before, ._1SpsGY8eli4YKN7m_2L1kn:before{\n  font: normal normal normal 16px/1 octicons;\n  display: inline-block;\n  text-decoration: none;\n  text-rendering: auto;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  margin-right: 5px;\n}\n.wYsdPNAibapHwnSEZvFw-:before{\n\tcontent: '\\F02D';\n}\n._1SpsGY8eli4YKN7m_2L1kn:before{\n\tcontent: '\\F059'\n}\n\n._2B8Cwn90dTVlsjfmx-hn3-{\n\tcolor: #DBD004;\n}", ""]);
+
+  // exports
+  exports.locals = {
+  	"container": "_37FNPHY8dxUSFT6J_JNfhJ",
+  	"preamble": "_22pvPhtueVAhqDXdGw6UE8",
+  	"profession": "_1bTTiTt6orUT4sNG824N8Y",
+  	"warn": "wYsdPNAibapHwnSEZvFw-",
+  	"tip": "_1SpsGY8eli4YKN7m_2L1kn",
+  	"amber": "_2B8Cwn90dTVlsjfmx-hn3-"
+  };
+
+/***/ },
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
   /**
    * React Static Boilerplate
    * https://github.com/koistya/react-static-boilerplate
@@ -328,30 +349,6 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 4 */
-/***/ function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-
-
-  // module
-  exports.push([module.id, "._37FNPHY8dxUSFT6J_JNfhJ{\n\twidth: 960px;\n\tmargin: auto;\n\tmargin-bottom: 40px;\n}\n._3QLKxM0ZfnlJP-5mqoKxcd{\n\twidth: 1170px;\n\tmargin: auto;\n}\n._3QLKxM0ZfnlJP-5mqoKxcd::after{\n\tdisplay: block;\n\tcontent: \"\";\n\tclear: both;\n\tpadding-bottom: 40px;\n\tborder-bottom: #ddd solid 1px;\n\tmargin-bottom: 40px;\n}\n\n._22pvPhtueVAhqDXdGw6UE8{\n\tfont-size: 16pt;\n\tmargin: 60px 40px;\n\tline-height: 2em;\n}\n\n._2rhtxc8Y7ruo9yvN_hG8lj{\n\twidth: 640px;\n\theight: 360px;\n\tbackground-color: #ccc;\n\tfloat: left;\n}\n.O8mfFQdSU2JDHaXxs5Yj{\n\twidth: 460px;\n\tmargin-left: 20px;\n\tfloat: left;\n}\n\n._1bTTiTt6orUT4sNG824N8Y{\n\tfloat: left;\n\tmargin-right: 20px;\n}\n\n.wYsdPNAibapHwnSEZvFw-{\n\tcolor: #EA7D00;\n}\n._1SpsGY8eli4YKN7m_2L1kn{\n\tcolor: #005AA1;\n}\n.wYsdPNAibapHwnSEZvFw-:before, ._1SpsGY8eli4YKN7m_2L1kn:before{\n  font: normal normal normal 16px/1 octicons;\n  display: inline-block;\n  text-decoration: none;\n  text-rendering: auto;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  margin-right: 5px;\n}\n.wYsdPNAibapHwnSEZvFw-:before{\n\tcontent: '\\F02D';\n}\n._1SpsGY8eli4YKN7m_2L1kn:before{\n\tcontent: '\\F059'\n}\n\n._2B8Cwn90dTVlsjfmx-hn3-{\n\tcolor: #DBD004;\n}", ""]);
-
-  // exports
-  exports.locals = {
-  	"container": "_37FNPHY8dxUSFT6J_JNfhJ",
-  	"step": "_3QLKxM0ZfnlJP-5mqoKxcd",
-  	"preamble": "_22pvPhtueVAhqDXdGw6UE8",
-  	"figure": "_2rhtxc8Y7ruo9yvN_hG8lj",
-  	"description": "O8mfFQdSU2JDHaXxs5Yj",
-  	"profession": "_1bTTiTt6orUT4sNG824N8Y",
-  	"warn": "wYsdPNAibapHwnSEZvFw-",
-  	"tip": "_1SpsGY8eli4YKN7m_2L1kn",
-  	"amber": "_2B8Cwn90dTVlsjfmx-hn3-"
-  };
-
-/***/ },
 /* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -383,15 +380,15 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(7);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(29);
+  var _historyLibCreateBrowserHistory = __webpack_require__(31);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(30);
+  var _historyLibCreateMemoryHistory = __webpack_require__(32);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(31);
+  var _historyLibUseQueries = __webpack_require__(33);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -411,14 +408,14 @@ module.exports =
 /***/ function(module, exports, __webpack_require__) {
 
   var map = {
-  	"./15795.json": 21,
-  	"./21647.json": 22,
-  	"./5521.json": 23,
-  	"./5525.json": 24,
-  	"./5530.json": 25,
-  	"./5546.json": 26,
-  	"./5555.json": 27,
-  	"./5623.json": 28
+  	"./15795.json": 23,
+  	"./21647.json": 24,
+  	"./5521.json": 25,
+  	"./5525.json": 26,
+  	"./5530.json": 27,
+  	"./5546.json": 28,
+  	"./5555.json": 29,
+  	"./5623.json": 30
   };
   function webpackContext(req) {
   	return __webpack_require__(webpackContextResolve(req));
@@ -458,7 +455,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(17);
+  var _styleCss = __webpack_require__(18);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -470,6 +467,10 @@ module.exports =
 
   var _GwSkillDescription2 = _interopRequireDefault(_GwSkillDescription);
 
+  var _reactPopover = __webpack_require__(35);
+
+  var _reactPopover2 = _interopRequireDefault(_reactPopover);
+
   var GwSkill = (function (_Component) {
   	_inherits(GwSkill, _Component);
 
@@ -479,31 +480,46 @@ module.exports =
   		_get(Object.getPrototypeOf(GwSkill.prototype), 'constructor', this).apply(this, arguments);
 
   		this.state = {
-  			tooltip: false,
-  			top: 0,
-  			left: -400
+  			tooltip: false
   		};
   	}
 
   	_createClass(GwSkill, [{
+  		key: 'getDetail',
+  		value: function getDetail() {
+  			return (0, _context2['default'])('./' + this.props.id + '.json');
+  		}
+  	}, {
   		key: 'render',
   		value: function render() {
-  			var skillDetail = (0, _context2['default'])('./' + this.props.id + '.json');
+  			var skillDetail = this.getDetail();
   			return _react2['default'].createElement(
-  				'div',
-  				{ className: _styleCss2['default'].skill, onMouseOver: this.onMouseOver.bind(this), onMouseMove: this.onMouseOver.bind(this), onMouseOut: this.onMouseOut.bind(this) },
-  				skillDetail.name,
+  				_reactPopover2['default'],
+  				{ isOpen: this.state.tooltip, body: _react2['default'].createElement(_GwSkillDescription2['default'], { id: this.props.id }), preferPlace: 'column' },
   				_react2['default'].createElement(
   					'div',
-  					{ className: _styleCss2['default'].tooltip, style: { display: this.state.tooltip ? 'block' : 'none', top: this.state.top + 15, left: this.state.left + 15 } },
-  					_react2['default'].createElement(_GwSkillDescription2['default'], { id: this.props.id })
+  					{ className: _styleCss2['default'].skill, onMouseOver: this.onMouseOver.bind(this), onMouseOut: this.onMouseOut.bind(this) },
+  					_react2['default'].createElement(
+  						'a',
+  						{ href: this.getSkillLink(), target: '_blank' },
+  						_react2['default'].createElement('img', { src: skillDetail.icon }),
+  						skillDetail.name
+  					)
   				)
   			);
   		}
   	}, {
+  		key: 'getSkillLink',
+  		value: function getSkillLink() {
+  			var skillDetail = this.getDetail();
+  			var name = skillDetail.name.replace(/ /g, '_');
+
+  			return 'https://wiki.guildwars2.com/wiki/' + name;
+  		}
+  	}, {
   		key: 'onMouseOver',
   		value: function onMouseOver(e) {
-  			this.setState({ tooltip: true, top: e.pageY, left: e.pageX });
+  			this.setState({ tooltip: true });
   		}
   	}, {
   		key: 'onMouseOut',
@@ -548,7 +564,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(18);
+  var _styleCss = __webpack_require__(19);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -582,11 +598,14 @@ module.exports =
   					{ className: _styleCss2['default'].cast },
   					this.getDuration()
   				),
-  				_react2['default'].createElement('img', { src: skillDetail.icon }),
-  				skillDetail.name,
+  				_react2['default'].createElement(
+  					'h4',
+  					null,
+  					skillDetail.name
+  				),
   				_react2['default'].createElement(
   					'div',
-  					null,
+  					{ className: _styleCss2['default'].description },
   					skillDetail.description
   				),
   				_react2['default'].createElement(
@@ -603,7 +622,7 @@ module.exports =
   				var data = fact.value || fact.duration || fact.percent || fact.field_type || fact.distance || fact.hit_count;
   				var image = _react2['default'].createElement('img', { src: fact.icon });
   				if (!fact.icon) {
-  					image = null;
+  					return null;
   				}
   				if (data) {
   					return _react2['default'].createElement(
@@ -709,7 +728,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(19);
+  __webpack_require__(20);
 
   var _Navigation = __webpack_require__(12);
 
@@ -749,11 +768,11 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(20);
+  var _styleCss = __webpack_require__(21);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
-  var _Link = __webpack_require__(3);
+  var _Link = __webpack_require__(4);
 
   var _Link2 = _interopRequireDefault(_Link);
 
@@ -804,6 +823,169 @@ module.exports =
 /* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+  	value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _styleCss = __webpack_require__(22);
+
+  var _styleCss2 = _interopRequireDefault(_styleCss);
+
+  var Step = (function (_Component) {
+  	_inherits(Step, _Component);
+
+  	function Step() {
+  		_classCallCheck(this, Step);
+
+  		_get(Object.getPrototypeOf(Step.prototype), 'constructor', this).apply(this, arguments);
+
+  		this.state = {
+  			index: 0
+  		};
+  	}
+
+  	_createClass(Step, [{
+  		key: 'render',
+  		value: function render() {
+  			var stepNumber = null;
+
+  			if (this.props.number) {
+  				stepNumber = _react2['default'].createElement(
+  					'h4',
+  					null,
+  					'Step ',
+  					this.props.number
+  				);
+  			}
+
+  			var figureList = null;
+
+  			if (this.getFigure().length > 1) {
+  				figureList = _react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].figureList },
+  					this.getFigureList()
+  				);
+  			}
+
+  			return _react2['default'].createElement(
+  				'div',
+  				{ className: _styleCss2['default'].step },
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].figure },
+  					this.getFigure().length > 0 && this.getFigure()[this.state.index]
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].description },
+  					stepNumber,
+  					_react2['default'].Children.toArray(this.props.children).filter(function (x) {
+  						return x.type != Figure;
+  					}),
+  					figureList
+  				)
+  			);
+  		}
+  	}, {
+  		key: 'changeFigure',
+  		value: function changeFigure(index) {
+  			this.setState({ index: index });
+  		}
+  	}, {
+  		key: 'getFigure',
+  		value: function getFigure() {
+  			return _react2['default'].Children.toArray(this.props.children).filter(function (x) {
+  				return x.type == Figure;
+  			});
+  		}
+  	}, {
+  		key: 'getFigureList',
+  		value: function getFigureList() {
+  			var _this = this;
+
+  			return this.getFigure().map(function (figure, index) {
+  				var cls = _this.state.index === index ? _styleCss2['default'].active : '';
+
+  				if (figure.type == 'video') {
+  					return _react2['default'].createElement(
+  						Figure,
+  						null,
+  						_react2['default'].createElement('img', { src: figure.props.poster })
+  					);
+  				}
+
+  				return _react2['default'].createElement(
+  					'div',
+  					{ className: cls, onClick: _this.changeFigure.bind(_this, index) },
+  					figure
+  				);
+  			});
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			number: _react2['default'].PropTypes.number
+  		},
+  		enumerable: true
+  	}]);
+
+  	return Step;
+  })(_react.Component);
+
+  exports.Step = Step;
+
+  var Figure = (function (_Component2) {
+  	_inherits(Figure, _Component2);
+
+  	function Figure() {
+  		_classCallCheck(this, Figure);
+
+  		_get(Object.getPrototypeOf(Figure.prototype), 'constructor', this).apply(this, arguments);
+  	}
+
+  	_createClass(Figure, [{
+  		key: 'render',
+  		value: function render() {
+  			return _react2['default'].createElement(
+  				'div',
+  				{ className: _styleCss2['default'].figureItem },
+  				this.props.children
+  			);
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			children: _react2['default'].PropTypes.element.isRequired
+  		},
+  		enumerable: true
+  	}]);
+
+  	return Figure;
+  })(_react.Component);
+
+  exports.Figure = Figure;
+
+/***/ },
+/* 14 */
+/***/ function(module, exports, __webpack_require__) {
+
   /**
    * React Static Boilerplate
    * https://github.com/koistya/react-static-boilerplate
@@ -830,7 +1012,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(4);
+  var _styleCss = __webpack_require__(3);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -870,7 +1052,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -899,6 +1081,10 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
+  var _styleCss = __webpack_require__(3);
+
+  var _styleCss2 = _interopRequireDefault(_styleCss);
+
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
@@ -913,7 +1099,7 @@ module.exports =
       value: function render() {
         return _react2['default'].createElement(
           'div',
-          null,
+          { className: _styleCss2['default'].container },
           _react2['default'].createElement(
             'h1',
             null,
@@ -941,7 +1127,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -970,17 +1156,19 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(4);
+  var _styleCss = __webpack_require__(3);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
-  var _componentsLink = __webpack_require__(3);
+  var _componentsLink = __webpack_require__(4);
 
   var _componentsLink2 = _interopRequireDefault(_componentsLink);
 
   var _componentsGwSkill = __webpack_require__(9);
 
   var _componentsGwSkill2 = _interopRequireDefault(_componentsGwSkill);
+
+  var _componentsStep = __webpack_require__(13);
 
   var _default = (function (_Component) {
   	_inherits(_default, _Component);
@@ -1082,161 +1270,132 @@ module.exports =
   						'Specialization'
   					)
   				),
+  				_react2['default'].createElement('div', { id: 'step' }),
   				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].step, id: 'step' },
-  					_react2['default'].createElement('div', { className: _styleCss2['default'].figure }),
+  					_componentsStep.Step,
+  					{ number: 1 },
   					_react2['default'].createElement(
-  						'div',
-  						{ className: _styleCss2['default'].description },
+  						'p',
+  						null,
+  						'When the wurm spawn it will spin twice before starts'
+  					),
+  					_react2['default'].createElement(
+  						'ul',
+  						null,
   						_react2['default'].createElement(
-  							'h4',
-  							null,
-  							'Step 1'
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							null,
-  							'When the wurm spawn it will spin twice before starts'
-  						),
-  						_react2['default'].createElement(
-  							'ul',
+  							'li',
   							null,
   							_react2['default'].createElement(
-  								'li',
-  								null,
-  								_react2['default'].createElement(
-  									'span',
-  									{ className: _styleCss2['default'].amber },
-  									'Amber'
-  								),
-  								' will eat the abomination in between the spins'
-  							)
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							{ className: _styleCss2['default'].warn },
-  							'Very rarely, it will spin only once before it starts.'
+  								'span',
+  								{ className: _styleCss2['default'].amber },
+  								'Amber'
+  							),
+  							' will eat the abomination in between the spins'
   						)
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						{ className: _styleCss2['default'].warn },
+  						'Very rarely, it will spin only once before it starts.'
   					)
   				),
   				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].step },
-  					_react2['default'].createElement('div', { className: _styleCss2['default'].figure }),
+  					_componentsStep.Step,
+  					{ number: 2 },
   					_react2['default'].createElement(
-  						'div',
-  						{ className: _styleCss2['default'].description },
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('img', { src: '/ele/spot-1.jpg' })
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'Position yourself at this spot. You should be right below rock to the left, and one step to the right of it.'
+  					),
+  					_react2['default'].createElement(
+  						'ul',
+  						null,
   						_react2['default'].createElement(
-  							'h4',
-  							null,
-  							'Step 2'
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							null,
-  							'Position yourself at this spot. You should be right below rock to the left, and one step to the right of it.'
-  						),
-  						_react2['default'].createElement(
-  							'ul',
+  							'li',
   							null,
   							_react2['default'].createElement(
-  								'li',
-  								null,
-  								_react2['default'].createElement(
-  									'span',
-  									{ className: _styleCss2['default'].amber },
-  									'Amber'
-  								),
-  								' has a bush that you can also use as reference'
-  							)
+  								'span',
+  								{ className: _styleCss2['default'].amber },
+  								'Amber'
+  							),
+  							' has a bush that you can also use as reference'
   						)
+  					),
+  					_react2['default'].createElement(
+  						'div',
+  						{ className: _styleCss2['default'].tip },
+  						'The rocks can be used as a reference. The model of all 3 wurms are the same.'
   					)
   				),
   				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].step },
-  					_react2['default'].createElement('div', { className: _styleCss2['default'].figure }),
+  					_componentsStep.Step,
+  					{ number: 3 },
   					_react2['default'].createElement(
-  						'div',
-  						{ className: _styleCss2['default'].description },
+  						'p',
+  						null,
+  						'When the wurm is about to spit (',
   						_react2['default'].createElement(
-  							'h4',
+  							'a',
+  							{ href: '/animation', onClick: _componentsLink2['default'].handleClick },
+  							'animation guide'
+  						),
+  						'), use an invulnerability skill.'
+  					),
+  					_react2['default'].createElement(
+  						'ul',
+  						null,
+  						_react2['default'].createElement(
+  							'li',
   							null,
-  							'Step 3'
+  							_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5521 }),
+  							' (Earth 5)'
   						),
   						_react2['default'].createElement(
-  							'p',
+  							'li',
   							null,
-  							'When the wurm is about to spit (',
-  							_react2['default'].createElement(
-  								'a',
-  								{ href: '/animation', onClick: _componentsLink2['default'].handleClick },
-  								'animation guide'
-  							),
-  							'), use an invulnerability skill.'
-  						),
-  						_react2['default'].createElement(
-  							'ul',
-  							null,
-  							_react2['default'].createElement(
-  								'li',
-  								null,
-  								_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5521 }),
-  								' (Earth 5)'
-  							),
-  							_react2['default'].createElement(
-  								'li',
-  								null,
-  								_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5546 }),
-  								' (Utility) Skill 5: ',
-  								_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5623 }),
-  								' is also usable. Keep in mind that with its very short duration the timing is more precise.'
-  							)
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							null,
-  							'The skill should be pressed closer to the actual spit (usually when the head is going down) to be able to cover all 3, as the skills has very short duration'
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							{ className: _styleCss2['default'].warn },
-  							'The wurm may spit back to back, so if you have to use Magnetic Shield casting it beforehand could be useful.'
+  							_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5546 }),
+  							' (Utility) Skill 5: ',
+  							_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5623 }),
+  							' is also usable. Keep in mind that with its very short duration the timing is more precise.'
   						)
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'The skill should be pressed closer to the actual spit (usually when the head is going down) to be able to cover all 3, as the skills has very short duration'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						{ className: _styleCss2['default'].warn },
+  						'The wurm may spit back to back, so if you have to use Magnetic Shield casting it beforehand could be useful.'
   					)
   				),
   				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].step },
-  					_react2['default'].createElement('div', { className: _styleCss2['default'].figure }),
+  					_componentsStep.Step,
+  					{ number: 4 },
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'The game will show 3 ',
+  						_react2['default'].createElement(
+  							'em',
+  							null,
+  							'Invulnerable'
+  						),
+  						' messages, one per direction if you have blocked husks. If there are 9, you have blocked eggs.'
+  					),
+  					_react2['default'].createElement('p', null),
   					_react2['default'].createElement(
   						'div',
-  						{ className: _styleCss2['default'].description },
-  						_react2['default'].createElement(
-  							'h4',
-  							null,
-  							'Step 4'
-  						),
-  						_react2['default'].createElement(
-  							'p',
-  							null,
-  							'The game will show 3 ',
-  							_react2['default'].createElement(
-  								'em',
-  								null,
-  								'Invulnerable'
-  							),
-  							' messages, one per direction if you have blocked husks. If there are 9, you have blocked eggs.'
-  						),
-  						_react2['default'].createElement('p', null),
-  						_react2['default'].createElement(
-  							'div',
-  							{ className: _styleCss2['default'].tip },
-  							'Since husk has longer cooldown, you can use ',
-  							_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5530 }),
-  							' (Air 4) to block eggs if you know it will be eggs. It is safer, as it does not requires precise positioning. However, with its long cast time it should be casted immediately after the spit animation start.'
-  						)
+  						{ className: _styleCss2['default'].tip },
+  						'Since husk has longer cooldown, you can use ',
+  						_react2['default'].createElement(_componentsGwSkill2['default'], { id: 5530 }),
+  						' (Air 4) to block eggs if you know it will be eggs. It is safer, as it does not requires precise positioning. However, with its long cast time it should be casted immediately after the spit animation start.'
   					)
   				),
   				_react2['default'].createElement(
@@ -1314,7 +1473,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1326,7 +1485,7 @@ module.exports =
   'use strict';
 
   Object.defineProperty(exports, '__esModule', {
-    value: true
+  	value: true
   });
 
   var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -1343,138 +1502,138 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(4);
+  var _styleCss = __webpack_require__(3);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
-  var _componentsLink = __webpack_require__(3);
+  var _componentsLink = __webpack_require__(4);
 
   var _componentsLink2 = _interopRequireDefault(_componentsLink);
 
   var _default = (function (_Component) {
-    _inherits(_default, _Component);
+  	_inherits(_default, _Component);
 
-    function _default() {
-      _classCallCheck(this, _default);
+  	function _default() {
+  		_classCallCheck(this, _default);
 
-      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
-    }
+  		_get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+  	}
 
-    _createClass(_default, [{
-      key: 'render',
-      value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          { className: _styleCss2['default'].container },
-          _react2['default'].createElement(
-            'h1',
-            null,
-            'Triple Trouble Blocking Guide'
-          ),
-          _react2['default'].createElement(
-            'p',
-            { className: _styleCss2['default'].preamble },
-            'Triple Trouble is a unique boss: not only coodination and DPS, it also requires player skills to complete it. In this guide, we will cover the most important part of the fight: ',
-            _react2['default'].createElement(
-              'strong',
-              null,
-              'preventing mobs from ruining your runs'
-            ),
-            '.'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'At every heads, the wurm will spit out eggs and husks on a set interval. To be able to complete this, those enemies should be dealed with. The traditional way of doing it is to reflect or use projectile destroyers when the wurm is spitting eggs, while the unblockable husks are dealed by people with condition-based build.'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'As knowledge of the fight improve, people found that invulnerability can also block projectiles which remove the need to split the zerg to two groups. It is also easier to setup: an organized triple decap map could be setup by ',
-            _react2['default'].createElement(
-              'strong',
-              null,
-              '6 people'
-            ),
-            ': one commander and one blocker per head.'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'This guide is split into two parts: guide for each professions, and the animation guide. Use the top bar to change to the part you wish to read.'
-          ),
-          _react2['default'].createElement(
-            'ul',
-            null,
-            _react2['default'].createElement(
-              'li',
-              null,
-              _react2['default'].createElement(
-                'a',
-                { href: '/elementalist', onClick: _componentsLink2['default'].handleClick },
-                'Elementalist blocking'
-              )
-            ),
-            _react2['default'].createElement(
-              'li',
-              null,
-              _react2['default'].createElement(
-                'a',
-                { href: '/animation', onClick: _componentsLink2['default'].handleClick },
-                'Animation guide'
-              )
-            )
-          ),
-          _react2['default'].createElement(
-            'div',
-            null,
-            'This guide is made possible by the help of following people:',
-            _react2['default'].createElement(
-              'ul',
-              null,
-              _react2['default'].createElement(
-                'li',
-                null,
-                'Created by Zemoregal'
-              ),
-              _react2['default'].createElement(
-                'li',
-                null,
-                'Elementalist guide based on ',
-                _react2['default'].createElement(
-                  'a',
-                  { href: 'https://wiki.guildwars2.com/wiki/User:Ventaurion/WurmNotes/SoloEleBlock' },
-                  'Ventaurion\'s SoloEleBlock'
-                )
-              )
-            )
-          )
-        );
-      }
-    }]);
+  	_createClass(_default, [{
+  		key: 'render',
+  		value: function render() {
+  			return _react2['default'].createElement(
+  				'div',
+  				null,
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].container },
+  					_react2['default'].createElement(
+  						'h1',
+  						null,
+  						'Triple Trouble Blocking Guide'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						{ className: _styleCss2['default'].preamble },
+  						'Triple Trouble is a unique boss: not only coodination and DPS, it also requires player skills to complete it. In this guide, we will cover the most important part of the fight: ',
+  						_react2['default'].createElement(
+  							'strong',
+  							null,
+  							'preventing mobs from ruining your runs'
+  						),
+  						'.'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'At every heads, the wurm will spit out eggs and husks on a set interval. To be able to complete this, those enemies should be dealed with. The traditional way of doing it is to reflect or use projectile destroyers when the wurm is spitting eggs, while the unblockable husks are dealed by people with condition-based build.'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'As knowledge of the fight improve, people found that invulnerability can also block projectiles which remove the need to split the zerg to two groups. It is also easier to setup: an organized triple decap map could be setup by ',
+  						_react2['default'].createElement(
+  							'strong',
+  							null,
+  							'6 people'
+  						),
+  						': one commander and one blocker per head.'
+  					)
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].container },
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'This guide is split into two parts: guide for each professions, and the animation guide. Use the top bar to change to the part you wish to read.'
+  					),
+  					_react2['default'].createElement(
+  						'ul',
+  						null,
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							_react2['default'].createElement(
+  								'a',
+  								{ href: '/elementalist', onClick: _componentsLink2['default'].handleClick },
+  								'Elementalist blocking'
+  							)
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							_react2['default'].createElement(
+  								'a',
+  								{ href: '/animation', onClick: _componentsLink2['default'].handleClick },
+  								'Animation guide'
+  							)
+  						)
+  					)
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].container },
+  					'This guide is made possible by the help of following people:',
+  					_react2['default'].createElement(
+  						'ul',
+  						null,
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Created by Zemoregal'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Elementalist guide based on ',
+  							_react2['default'].createElement(
+  								'a',
+  								{ href: 'https://wiki.guildwars2.com/wiki/User:Ventaurion/WurmNotes/SoloEleBlock' },
+  								'Ventaurion\'s SoloEleBlock'
+  							)
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							_react2['default'].createElement(
+  								'a',
+  								{ href: 'https://github.com/whs/ttblock' },
+  								'Fork and contribute to this guide on GitHub'
+  							)
+  						)
+  					)
+  				)
+  			);
+  		}
+  	}]);
 
-    return _default;
+  	return _default;
   })(_react.Component);
 
   exports['default'] = _default;
   module.exports = exports['default'];
-
-/***/ },
-/* 17 */
-/***/ function(module, exports, __webpack_require__) {
-
-  exports = module.exports = __webpack_require__(2)();
-  // imports
-
-
-  // module
-  exports.push([module.id, "._2GJ3Em1tADf-zMCe7jPm4v{\n\tcolor: red;\n\tcursor: default;\n\tdisplay: inline;\n}\n._1MB2CmQykypYNa9GL-levS{\n\tdisplay: none;\n\tposition: absolute;\n\tbackground: rgba(0,0,0,0.9);\n\twidth: 400px;\n\tcolor: white;\n\tpadding: 10px;\n}", ""]);
-
-  // exports
-  exports.locals = {
-  	"skill": "_2GJ3Em1tADf-zMCe7jPm4v",
-  	"tooltip": "_1MB2CmQykypYNa9GL-levS"
-  };
 
 /***/ },
 /* 18 */
@@ -1485,17 +1644,34 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "._3IzAHf5lDBcuhOtRPGqndw img{\n\tvertical-align: middle;\n\theight: 48px;\n\tmargin-right: 10px;\n}\n._3LWYDg4_wOwVWMiKjCyEHe{\n\tfloat: right;\n\tmargin-left: 10px;\n}\n._1oydZ9Swry6JSVB2fy-xml{\n\tlist-style: none;\n\tpadding: 0;\n}\n._1oydZ9Swry6JSVB2fy-xml img{\n\theight: 24px;\n}", ""]);
+  exports.push([module.id, "._2GJ3Em1tADf-zMCe7jPm4v{\n\tdisplay: inline;\n\twhite-space: nowrap;\n}\n._2GJ3Em1tADf-zMCe7jPm4v img{\n\tvertical-align: middle;\n\tmargin: 0 5px;\n\twidth: 1.7em;\n}\n.Popover-body{\n\tbackground: rgba(0,0,0,0.9);\n\twidth: 300px;\n\tcolor: white;\n\tpadding: 10px;\n\ttext-shadow: black 0px 1px 0px;\n}", ""]);
+
+  // exports
+  exports.locals = {
+  	"skill": "_2GJ3Em1tADf-zMCe7jPm4v"
+  };
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+
+
+  // module
+  exports.push([module.id, "._3IzAHf5lDBcuhOtRPGqndw{\n\tfont-size: 10pt;\n\tline-height: 1.2em;\n}\n._3IzAHf5lDBcuhOtRPGqndw h4{\n\tfont-weight: bold;\n\tdisplay: inline;\n\tcolor: #ffcc77;\n\tfont-size: inherit;\n}\n._1Up85ku6KDrKgUaxINb-gR{\n\tmargin: 10px 0;\n}\n._3LWYDg4_wOwVWMiKjCyEHe{\n\tfloat: right;\n\tmargin-left: 10px;\n}\n._1oydZ9Swry6JSVB2fy-xml{\n\tlist-style: none;\n\tpadding: 0;\n\tcolor: #aaa;\n\tmargin: 0;\n}\n._1oydZ9Swry6JSVB2fy-xml li{\n\theight: 32px;\n\tpadding-left: 40px;\n}\n._1oydZ9Swry6JSVB2fy-xml img{\n\tmargin-left: -40px;\n\theight: 32px;\n\tvertical-align: middle;\n\tmargin-right: 5px;\n}", ""]);
 
   // exports
   exports.locals = {
   	"skill": "_3IzAHf5lDBcuhOtRPGqndw",
+  	"description": "_1Up85ku6KDrKgUaxINb-gR",
   	"cast": "_3LWYDg4_wOwVWMiKjCyEHe",
   	"facts": "_1oydZ9Swry6JSVB2fy-xml"
   };
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1509,7 +1685,7 @@ module.exports =
 
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1526,7 +1702,28 @@ module.exports =
   };
 
 /***/ },
-/* 21 */
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+
+
+  // module
+  exports.push([module.id, ".maAhOXAOJgFWbOoVG9ELu{\n\twidth: 1170px;\n\tmargin: auto;\n}\n.maAhOXAOJgFWbOoVG9ELu::after{\n\tdisplay: block;\n\tcontent: \"\";\n\tclear: both;\n\tpadding-bottom: 40px;\n\tborder-bottom: #ddd solid 1px;\n\tmargin-bottom: 40px;\n}\n._34YnO3E_7xFYPyvyrQdy0N{\n\twidth: 460px;\n\tmargin-left: 20px;\n\tfloat: left;\n}\n._2sXG6Qy9ttHawhrKMrUTo4{\n\twidth: 640px;\n\theight: 359px;\n\tbackground-color: #ccc;\n\tfloat: left;\n}\n.MISJBmcfHXwn4zeF50PYU img, .MISJBmcfHXwn4zeF50PYU video{\n\tmax-width: 100%;\n\tmax-height: 100%;\n\tdisplay: block;\n}\n\n._3exJNv7jjaSsQaxdgN5Sjz{\n\tmargin: 10px 0;\n}\n\n._3exJNv7jjaSsQaxdgN5Sjz::after{\n\tdisplay: block;\n\tcontent: \"\";\n\tclear: both;\n\tmargin-bottom: 10px;\n}\n\n._3exJNv7jjaSsQaxdgN5Sjz .MISJBmcfHXwn4zeF50PYU{\n\twidth: 120px;\n\tfloat: left;\n\tmargin: 10px;\n\tcursor: pointer;\n}\n\n._3exJNv7jjaSsQaxdgN5Sjz .iT1Hzgoi5rbrfYaBFC0Be .MISJBmcfHXwn4zeF50PYU{\n\tborder: #e0e0e0 solid 5px;\n\tmargin: 5px;\n}", ""]);
+
+  // exports
+  exports.locals = {
+  	"step": "maAhOXAOJgFWbOoVG9ELu",
+  	"description": "_34YnO3E_7xFYPyvyrQdy0N",
+  	"figure": "_2sXG6Qy9ttHawhrKMrUTo4",
+  	"figureItem": "MISJBmcfHXwn4zeF50PYU",
+  	"figureList": "_3exJNv7jjaSsQaxdgN5Sjz",
+  	"active": "iT1Hzgoi5rbrfYaBFC0Be"
+  };
+
+/***/ },
+/* 23 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1571,7 +1768,7 @@ module.exports =
   };
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1626,7 +1823,7 @@ module.exports =
   };
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1663,7 +1860,7 @@ module.exports =
   };
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1735,7 +1932,7 @@ module.exports =
   };
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1773,7 +1970,7 @@ module.exports =
   };
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1843,7 +2040,7 @@ module.exports =
   };
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1913,7 +2110,7 @@ module.exports =
   };
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -1952,28 +2149,34 @@ module.exports =
   };
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
+
+/***/ },
+/* 35 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-popover");
 
 /***/ }
 /******/ ]);
