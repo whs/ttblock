@@ -19,6 +19,7 @@ function Html({ title, description, body, debug }) {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet" />
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css' />
         <link href='/octicons/octicons.css' rel='stylesheet' type='text/css' />
+        <link href='/style.css' rel='stylesheet' type='text/css' />
         <script src='/app.js' />
       </head>
       <body>

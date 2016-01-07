@@ -51,7 +51,7 @@ export class TraitExplaination extends Component {
 
 export class Explaination extends Component{
 	static propTypes = {
-		id: React.PropTypes.number.required
+		id: React.PropTypes.number.isRequired
 	};
 
 	render(){

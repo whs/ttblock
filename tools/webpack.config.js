@@ -8,6 +8,7 @@ import path from 'path';
 import webpack from 'webpack';
 import merge from 'lodash.merge';
 
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const DEBUG = !process.argv.includes('release');
 const VERBOSE = process.argv.includes('verbose');
 const WATCH = global.watch;
@@ -151,6 +152,7 @@ const pagesConfig = merge({}, config, {
   externals: /^[a-z][a-z\.\-\/0-9]*$/i,
   plugins: config.plugins.concat([
     new webpack.optimize.LimitChunkCountPlugin({ maxChunks: 1 }),
+    new ExtractTextPlugin('style.css')
   ]),
   module: {
     loaders: [
@@ -158,7 +160,7 @@ const pagesConfig = merge({}, config, {
       ...config.module.loaders,
       {
         test: /\.css$/,
-        loaders: ['css-loader?modules'],
+        loader: ExtractTextPlugin.extract('css-loader?module') ,
       },
     ],
   },
