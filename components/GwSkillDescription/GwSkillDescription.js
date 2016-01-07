@@ -28,22 +28,41 @@ class GwSkill extends Component {
 	}
 
 	renderFacts(){
-		return this.getDetail().facts.map(function(fact){
-			let data = fact.value || fact.duration || fact.percent || fact.field_type || fact.distance || fact.hit_count;
-			let image = <img src={fact.icon} />;
+		let facts = this.getDetail().facts;
+		return facts && facts.map(function(fact, index){
 			if(!fact.icon){
 				return null;
 			}
+
+			let data = fact.description || fact.value || fact.duration || fact.percent || fact.field_type || fact.distance || fact.hit_count;
+			let image = <div className={style.icon}><img src={fact.icon} /></div>;
+
+			if(fact.text == 'Apply Buff/Condition'){
+				fact.text = `${fact.status}`;
+				if(fact.duration > 0){
+					fact.text += ` (${fact.duration}s)`;
+				}
+			}
+
+			if(fact.apply_count && fact.apply_count > 1){
+				image = <div className={style.icon}>
+					<img src={fact.icon} />
+					<div className={style.stack}>{fact.apply_count}</div>
+				</div>;
+			}
+
 			if(data){
 				return (
-					<li>
-						{image} <strong>{fact.text}: </strong> {data}
+					<li key={index}>
+						{image}
+						<div className={style.detail}><strong>{fact.text}: </strong> {data}</div>
 					</li>
 				);
 			}else{
 				return (
-					<li>
-						{image} {fact.text}
+					<li key={index}>
+						{image}
+						<div className={style.detail}>{fact.text}</div>
 					</li>
 				);
 			}
@@ -62,6 +81,9 @@ class GwSkill extends Component {
 	
 	getFact(fact){
 		let detail = this.getDetail();
+		if(!detail.facts){
+			return null;
+		}
 		for(let item of detail.facts){
 			if(item.type == fact){
 				return item;

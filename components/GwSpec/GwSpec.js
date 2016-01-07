@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import style from './style.css';
-import { specContext, traitContext } from './context';
+import context from './context';
+import GwTrait from '../GwTrait';
 
 class GwSpec extends Component {
 	static propTypes = {
-		id: React.PropTypes.number.isRequired
+		id: React.PropTypes.number.isRequired,
+		onTraitClick: React.PropTypes.func
 	};
 
 	getDetail(){
-		return specContext('./' + this.props.id + '.json');
+		return context('./' + this.props.id + '.json');
 	}
 
 	render(){
@@ -31,12 +33,11 @@ class GwSpec extends Component {
 			detail.major_traits[8],
 		];
 
-		let traits = traitList.map((item, index) => {
-			let trait = this.getTraitDetail(item);
+		let traits = traitList.map((id, index) => {
 			let cls = [style.trait];
 
-			if(trait.slot != 'Minor' && this.props.highlight){
-				if(this.props.highlight.indexOf(trait.id) != -1){
+			if(this.props.highlight){
+				if(this.props.highlight.indexOf(id) != -1 || [0, 4, 8].indexOf(index) != -1){
 					cls.push(style.highlight);
 				}else{
 					cls.push(style.unhighlight);
@@ -44,8 +45,8 @@ class GwSpec extends Component {
 			}
 
 			return (
-				<div className={cls.join(' ')} data-index={index}>
-					<img src={trait.icon} />
+				<div className={cls.join(' ')} data-index={index} key={id}>
+					<GwTrait id={id} iconOnly={true} onClick={this.onTraitClick.bind(this, id)} />
 				</div>
 			)
 		});
@@ -63,8 +64,8 @@ class GwSpec extends Component {
 		);
 	}
 
-	getTraitDetail(id){
-		return traitContext(`./${id}.json`);
+	onTraitClick(id, e){
+		return this.props.onTraitClick && this.props.onTraitClick(e, id);
 	}
 }
 

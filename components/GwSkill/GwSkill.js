@@ -6,7 +6,9 @@ import Popover from 'react-popover';
 
 class GwSkill extends Component {
 	static propTypes = {
-		id: React.PropTypes.number.isRequired
+		id: React.PropTypes.number.isRequired,
+		iconOnly: React.PropTypes.bool,
+		onClick: React.PropTypes.func
 	};
 
 	state = {
@@ -19,16 +21,26 @@ class GwSkill extends Component {
 
 	render(){
 		let skillDetail = this.getDetail();
+		let name = skillDetail.name;
+
+		if(this.props.iconOnly){
+			name = null;
+		}
+
 		return (
-			<Popover isOpen={this.state.tooltip} body={<GwSkillDescription id={this.props.id} />} preferPlace="column">
+			<Popover isOpen={this.state.tooltip} body={this.getPopup()} preferPlace="column">
 				<div className={style.skill} onMouseOver={this.onMouseOver.bind(this)} onMouseOut={this.onMouseOut.bind(this)} onTouchStart={this.onTouchStart.bind(this)} onTouchEnd={this.onTouchEnd.bind(this)}>
-					<a href={this.getSkillLink()} target="_blank">
+					<a href={this.getSkillLink()} target="_blank" onClick={this.onClick.bind(this)}>
 						<img src={skillDetail.icon} />
-						{skillDetail.name}
+						{name}
 					</a>
 				</div>
 			</Popover>
 		);
+	}
+
+	getPopup(){
+		return <GwSkillDescription id={this.props.id} />;
 	}
 
 	getSkillLink(){
@@ -46,12 +58,24 @@ class GwSkill extends Component {
 	}
 
 	onTouchStart(e){
+		if(this.props.onClick){
+			return;
+		}
+
 		this.onMouseOver(e);
 		e.preventDefault();
 	}
 	onTouchEnd(e){
+		if(this.props.onClick){
+			return;
+		}
+
 		this.onMouseOut(e);
 		e.preventDefault();
+	}
+
+	onClick(e){
+		return this.props.onClick && this.props.onClick(e);
 	}
 }
 

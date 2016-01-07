@@ -9,6 +9,8 @@ import style from './style.css';
 import Link from '../components/Link';
 import GwSkill from '../components/GwSkill';
 import GwSpec from '../components/GwSpec';
+import GwTrait from '../components/GwTrait';
+import { TraitExplaination, Explaination } from '../components/TraitExplaination';
 import { Step, Figure } from '../components/Step';
 
 export default class extends Component {
@@ -32,13 +34,57 @@ export default class extends Component {
 					<p>If you don't already have one you don't need to get an exotic, as we are looking for invulnerability here and not damage. You can use the trading post at Marshwatch Haven.</p>
 				</div>
 				<div className={style.container} id="spec">
-					<h4>Specialization</h4>
-					<p />
+					<h4>Specializations</h4>
+				</div>
+				<TraitExplaination>
 					<GwSpec id={26} highlight={[282, 277, 1674]} />
 					<GwSpec id={41} highlight={[232, 214, 226]} />
 					<GwSpec id={48} highlight={[1952, 2015, 1986]} />
-				</div>
-				<div id="step"></div>
+					<Explaination id={0}>
+						<p>Here's the list of specialization you should be running. The major  focus here is to reduce cooldown for Earth and Air attunement.</p>
+						<div><p />The Tempest line is optional. The main use here is from <GwTrait id={1952} />. If you don't have it you can use any other lines.</div>
+						<p className={style.tip}>Click on a trait to view its explaination</p>
+					</Explaination>
+					<Explaination id={282}>
+						<h4>Earth's Embrace</h4>
+						<p>Help with survivability. Hopefully you won't really need it.</p>
+					</Explaination>
+					<Explaination id={277}>
+						<h4>Geomancer's Training</h4>
+						<div><p />Main trait of this specialization. It is used to reduce cooldown of <GwSkill id={5521} /></div>
+					</Explaination>
+					<Explaination id={1674}>
+						<h4>Stone Heart</h4>
+						<div><p />Help with survivability. I found that with how the veteran wurms attack you <GwTrait id={1508} /> isn't really helpful here.</div>
+					</Explaination>
+					<Explaination id={232}>
+						<h4>Ferocious Winds</h4>
+						<p>This one is from meta build. Helps with DPS.</p>
+					</Explaination>
+					<Explaination id={214}>
+						<h4>Aeromancer's Training</h4>
+						<div><p />Main trait of this specialization. It is used to reduce cooldown of <GwSkill id={5530} /></div>
+					</Explaination>
+					<Explaination id={226}>
+						<h4>Bolt to the Heart</h4>
+						<p>This one is from meta build. Helps with DPS.</p>
+					</Explaination>
+					<Explaination id={1952}>
+						<h4>Gale Song</h4>
+						<p>This trait help you back on your feet when you get knocked back from failed spin dodging, or when veteran wurms slammed you.</p>
+						<div><p />Ideally you can predict the attack and can dodge, or pop <GwSkill id={5639} /> or <GwSkill id={5641} /> beforehand to save your positioning but if you can't, this trait will save you once every 40 seconds.</div>
+					</Explaination>
+					<Explaination id={2015}>
+						<h4>Harmonious Conduit</h4>
+						<p>This trait is from meta build. It increase your damage output for a short time after you have successfully overload an attunement.</p>
+						<p>I haven't tried the stability, but it probably can be used in clutch situation to save your positioning. However, it might grab the attention of veterans around you.</p>
+					</Explaination>
+					<Explaination id={1986}>
+						<h4>Elemental Bastion</h4>
+						<p>This trait is from meta build. It reduce incoming damage for 5 seconds when your HP hit 75%.</p>
+					</Explaination>
+				</TraitExplaination>
+				<p id="step" />
 				<Step number={1}>
 					<p>When the wurm spawn it will spin twice before starts</p>
 					<ul>
