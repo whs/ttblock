@@ -53,14 +53,16 @@ export class Step extends Component {
 		return this.getFigure().map((figure, index) => {
 			let cls = this.state.index === index ? style.active : '';
 
-			if(figure.type == 'video'){
-				return (
-					<Figure><img src={figure.props.poster} /></Figure>
+			if(figure.props.children.type == 'video' && figure.props.children.props.poster){
+				figure = (
+					<Figure key={index}>
+						<img src={figure.props.children.props.poster} />
+					</Figure>
 				);
 			}
 
 			return (
-				<div className={cls} onClick={this.changeFigure.bind(this, index)}>
+				<div className={cls} onClick={this.changeFigure.bind(this, index)} key={index}>
 					{figure}
 				</div>
 			);

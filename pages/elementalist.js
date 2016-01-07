@@ -1,9 +1,3 @@
-/**
- * React Static Boilerplate
- * https://github.com/koistya/react-static-boilerplate
- * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
- */
-
 import React, { Component } from 'react';
 import style from './style.css';
 import Link from '../components/Link';
@@ -86,6 +80,7 @@ export default class extends Component {
 				</TraitExplaination>
 				<p id="step" />
 				<Step number={1}>
+					<Figure><video src="/ele/firstspin.webm" poster="/ele/firstspin.jpg" loop={true} autoPlay={true} /></Figure>
 					<p>When the wurm spawn it will spin twice before starts</p>
 					<ul>
 						<li><span className={style.amber}>Amber</span> will eat the abomination in between the spins</li>
@@ -94,13 +89,19 @@ export default class extends Component {
 				</Step>
 				<Step number={2}>
 					<Figure><img src="/ele/spot-1.jpg" /></Figure>
+					<Figure><img src="/ele/spot-3.jpg" /></Figure>
+					<Figure><img src="/ele/spot-2.jpg" /></Figure>
 					<p>Position yourself at this spot. You should be right below rock to the left, and one step to the right of it.</p>
 					<ul>
-						<li><span className={style.amber}>Amber</span> has a bush that you can also use as reference</li>
+						<li>The model of all 3 wurms are the same.</li>
+						<li><span className={style.amber}>Amber</span> has a bush that you can also use as a reference.</li>
 					</ul>
-					<div className={style.tip}>The rocks can be used as a reference. The model of all 3 wurms are the same.</div>
+					<div className={style.tip}>The spot is also one of its hitbox. You can hit it with air autoattack and see where's the damage show up.</div>
+					<p className={style.warn}>The reference screenshots is captured with low graphics. On higher graphics the internal may look different.</p>
 				</Step>
 				<Step number={3}>
+					<Figure><video src="/ele/huskblock.webm" poster="/ele/huskblock.jpg" loop={true} autoPlay={true} /></Figure>
+					<Figure><video src="/ele/shieldblock.webm" poster="/ele/shieldblock.jpg" loop={true} autoPlay={true} /></Figure>
 					<p>When the wurm is about to spit (<a href="/animation" onClick={Link.handleClick}>animation guide</a>), use an invulnerability skill.</p>
 					<ul>
 						<li><GwSkill id={5521} /> (Earth 5)</li>
@@ -110,6 +111,8 @@ export default class extends Component {
 					<p className={style.warn}>The wurm may spit back to back, so if you have to use Magnetic Shield casting it beforehand could be useful.</p>
 				</Step>
 				<Step number={4}>
+					<Figure><video src="/ele/eggblock.webm" poster="/ele/eggblock.jpg" loop={true} autoPlay={true} /></Figure>
+					<Figure><video src="/ele/swirlingwinds.webm" poster="/ele/swirlingwinds.jpg" loop={true} autoPlay={true} /></Figure>
 					<p>The game will show 3 <em>Invulnerable</em> messages, one per direction if you have blocked husks. If there are 9, you have blocked eggs.</p>
 					<p />
 					<div className={style.tip}>Since husk has longer cooldown, you can use <GwSkill id={5530} /> (Air 4) to block eggs if you know it will be eggs. It is safer, as it does not requires precise positioning. However, with its long cast time it should be casted immediately after the spit animation start.</div>
