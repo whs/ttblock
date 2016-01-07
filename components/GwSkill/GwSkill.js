@@ -21,7 +21,7 @@ class GwSkill extends Component {
 		let skillDetail = this.getDetail();
 		return (
 			<Popover isOpen={this.state.tooltip} body={<GwSkillDescription id={this.props.id} />} preferPlace="column">
-				<div className={style.skill} onMouseOver={this.onMouseOver.bind(this)} onMouseOut={this.onMouseOut.bind(this)}>
+				<div className={style.skill} onMouseOver={this.onMouseOver.bind(this)} onMouseOut={this.onMouseOut.bind(this)} onTouchStart={this.onTouchStart.bind(this)} onTouchEnd={this.onTouchEnd.bind(this)}>
 					<a href={this.getSkillLink()} target="_blank">
 						<img src={skillDetail.icon} />
 						{skillDetail.name}
@@ -43,6 +43,15 @@ class GwSkill extends Component {
 	}
 	onMouseOut(){
 		this.setState({tooltip: false});	
+	}
+
+	onTouchStart(e){
+		this.onMouseOver(e);
+		e.preventDefault();
+	}
+	onTouchEnd(e){
+		this.onMouseOut(e);
+		e.preventDefault();
 	}
 }
 

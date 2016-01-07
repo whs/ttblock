@@ -18,11 +18,13 @@ export default class extends Component {
 			<div>
 				<div className={style.container}>
 					<img src="/Elementalist_icon.png" className={style.profession} />
-					<h1>Elementalist</h1>
-					<h3>Triple Trouble Blocking Guide</h3>
-					<p>
-						<strong>Quick Links: </strong> <a href="#weapon">Weapons</a> &middot; <a href="#spec">Specialization</a> &middot; <a href="#step">Steps</a>
-					</p>
+					<div className={style.classHeader}>
+						<h1>Elementalist</h1>
+						<h3>Triple Trouble Blocking Guide</h3>
+						<p>
+							<strong>Quick Links: </strong> <a href="#weapon">Weapons</a> &middot; <a href="#spec">Specialization</a> &middot; <a href="#step">Steps</a>
+						</p>
+					</div>
 				</div>
 				<div className={style.container} id="weapon">
 					<h4>Weapons</h4>

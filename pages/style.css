@@ -4,16 +4,18 @@
 	margin-bottom: 40px;
 }
 
-
 .preamble{
 	font-size: 16pt;
 	margin: 60px 40px;
 	line-height: 2em;
 }
 
+.classHeader{
+	padding-left: 148px;
+}
+
 .profession{
 	float: left;
-	margin-right: 20px;
 }
 
 .warn{
@@ -44,4 +46,26 @@
 
 .amber{
 	color: #DBD004;
+}
+
+@media (max-width: 960px){
+	.container{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+}
+@media (max-width: 768px){
+	.preamble{
+		font-size: 12pt;
+		margin: 40px 20px;
+	}
+	.classHeader{
+		padding: 0;
+	}
+	.profession{
+		float: none;
+		display: block;
+		margin: auto;
+	}
 }

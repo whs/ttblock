@@ -7,7 +7,7 @@ function Navigation() {
     <nav>
       <ul className={style.nav}>
         <li className={style.main}>
-          <a href="/" onClick={Link.handleClick}>Triple Trouble Blocking Guide</a>:
+          <a href="/" onClick={Link.handleClick}>Triple Trouble Blocking Guide:</a>
         </li>
         <li>
           <a href="/elementalist" onClick={Link.handleClick}><img src="/Elementalist_tango_icon_20px.png" /> Elementalist</a>

@@ -21,3 +21,14 @@
 	font-size: 120%;
 	font-weight: bold;
 }
+@media (max-width: 768px){
+	.nav li{
+		display: block;
+		margin: 0;
+	}
+	.nav li a{
+		display: block;
+		white-space: nowrap;
+		padding: 0 10px;
+	}
+}

@@ -51,12 +51,14 @@ class GwSpec extends Component {
 		});
 
 		return (
-			<div className={style.spec} style={{backgroundImage: `url('${detail.background}')`}}>
-				<div className={style.specName}>
-					{detail.name}
+			<div className={style.specWrap}>
+				<div className={style.spec} style={{backgroundImage: `url('${detail.background}')`}}>
+					<div className={style.specName}>
+						{detail.name}
+					</div>
+					<img src={detail.icon} className={style.specIcon} />
+					{traits}
 				</div>
-				<img src={detail.icon} className={style.specIcon} />
-				{traits}
 			</div>
 		);
 	}

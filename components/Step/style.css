@@ -49,3 +49,22 @@
 	border: #e0e0e0 solid 5px;
 	margin: 5px;
 }
+
+@media (max-width: 960px){
+	.step{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+	.figure{
+		width: 100%;
+		height: auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.description{
+		width: auto;
+		float: none;
+		margin: 0;
+	}
+}

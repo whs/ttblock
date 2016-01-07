@@ -86,3 +86,10 @@
 .trait.unhighlight{
 	opacity: 0.3;
 }
+
+@media (max-width: 960px){
+	.specWrap{
+		width: 100%;
+		overflow: auto;
+	}
+}
