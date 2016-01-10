@@ -60,3 +60,11 @@
 	float: left;
 	padding: 20px;
 }
+
+@media (max-width: 960px){
+	.container{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+}
