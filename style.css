@@ -273,6 +273,14 @@ body{
 .ZWDlGiRU5hKFn4KFObBqA{
 	float: left;
 	padding: 20px;
+}
+
+@media (max-width: 960px){
+	._23qa-jdlw59kAYIAyr4c_7{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
 }._2GJ3Em1tADf-zMCe7jPm4v{
 	display: inline;
 	white-space: nowrap;
