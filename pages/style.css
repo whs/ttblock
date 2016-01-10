@@ -45,7 +45,13 @@
 }
 
 .amber{
-	color: #DBD004;
+	color: #DDAD1D;
+}
+.crimson{
+	color: red;
+}
+.cobalt{
+	color: blue;
 }
 
 @media (max-width: 960px){

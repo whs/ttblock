@@ -1,0 +1,62 @@
+.container{
+	width: 960px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.container::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.container video{
+	width: 100%;
+}
+.toolbar{
+	text-align: center;
+	margin: 20px 0;
+}
+.cooldown{
+	position: relative;
+	margin: 20px 0;
+}
+.cooldown .skillName{
+	width: 10%;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+}
+.cooldown .bar{
+	background-color: #576F31;
+	position: absolute;
+	left: 10%;
+	top: 0;
+	height: 2em;
+}
+.cooldown .timer{
+	position: absolute;
+	top: 0;
+	left: 60%;
+	height: 2em;
+	line-height: 2em;
+	z-index: 100;
+	color: white;
+	text-shadow: black 0px 1px 0px;
+}
+.offcooldown{
+	color: green;
+	font-weight: bold;
+}
+.oncooldown{
+	color: red;
+}
+.skillName.casting, .miniCooldown.casting{
+	font-size: 120%;
+	color: #FF7510;
+}
+.bar.casting{
+	background-color: #FF7510;
+}
+.miniCooldown{
+	float: left;
+	padding: 20px;
+}

@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "WurmVideo",
+  "main": "./WurmVideo.js"
+}

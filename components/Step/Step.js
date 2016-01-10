@@ -34,7 +34,8 @@ export class Step extends Component {
 				</div>
 				<div className={style.description}>
 					{stepNumber}
-					{React.Children.toArray(this.props.children).filter((x) => x.type != Figure)}
+					{React.Children.toArray(this.props.children).filter((x) => x.type != Figure && x.type != FigureDescription)}
+					{React.Children.toArray(this.props.children).filter((x) => x.type == FigureDescription && x.props.forFigure == this.state.index)}
 					{figureList}
 				</div>
 			</div>
@@ -78,6 +79,19 @@ export class Figure extends Component {
 	render(){
 		return (
 			<div className={style.figureItem}>
+				{this.props.children}
+			</div>
+		);
+	}
+}
+export class FigureDescription extends Component {
+	static propTypes = {
+		forFigure: React.PropTypes.number.isRequired
+	};
+
+	render(){
+		return (
+			<div>
 				{this.props.children}
 			</div>
 		);
