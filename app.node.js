@@ -53,7 +53,7 @@ module.exports =
 
   'use strict';
 
-  var _regeneratorRuntime = __webpack_require__(97)['default'];
+  var _regeneratorRuntime = __webpack_require__(99)['default'];
 
   var _interopRequireDefault = __webpack_require__(1)['default'];
 
@@ -67,31 +67,31 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(101);
+  var _reactDom = __webpack_require__(103);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
-  var _fbjsLibExecutionEnvironment = __webpack_require__(16);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(18);
 
-  var _coreLocation = __webpack_require__(15);
+  var _coreLocation = __webpack_require__(16);
 
   var _coreLocation2 = _interopRequireDefault(_coreLocation);
 
-  var _componentsLayout = __webpack_require__(22);
+  var _componentsLayout = __webpack_require__(24);
 
   var _componentsLayout2 = _interopRequireDefault(_componentsLayout);
 
   var routes = {
     '/404': function _() {
-      return __webpack_require__(26);
-    }, '/500': function _() {
-      return __webpack_require__(27);
-    }, '/animation': function animation() {
       return __webpack_require__(28);
-    }, '/elementalist': function elementalist() {
+    }, '/500': function _() {
       return __webpack_require__(29);
-    }, '/': function _() {
+    }, '/animation': function animation() {
       return __webpack_require__(30);
+    }, '/elementalist': function elementalist() {
+      return __webpack_require__(31);
+    }, '/': function _() {
+      return __webpack_require__(32);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -197,7 +197,7 @@ module.exports =
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
-  module.exports = {"container":"_37FNPHY8dxUSFT6J_JNfhJ","preamble":"_22pvPhtueVAhqDXdGw6UE8","classHeader":"_1ES-8EuO3qwQecUeElhPlo","profession":"_1bTTiTt6orUT4sNG824N8Y","warn":"wYsdPNAibapHwnSEZvFw-","tip":"_1SpsGY8eli4YKN7m_2L1kn","amber":"_2B8Cwn90dTVlsjfmx-hn3-"};
+  module.exports = {"container":"_37FNPHY8dxUSFT6J_JNfhJ","preamble":"_22pvPhtueVAhqDXdGw6UE8","classHeader":"_1ES-8EuO3qwQecUeElhPlo","profession":"_1bTTiTt6orUT4sNG824N8Y","warn":"wYsdPNAibapHwnSEZvFw-","tip":"_1SpsGY8eli4YKN7m_2L1kn","amber":"_2B8Cwn90dTVlsjfmx-hn3-","crimson":"_1g1Sr6o6CoW-8vYnAb3D6Z","cobalt":"_2nhlKUk83mykrFsjhd2D_o"};
 
 /***/ },
 /* 8 */
@@ -219,9 +219,9 @@ module.exports =
 
   var _classCallCheck = __webpack_require__(3)['default'];
 
-  var _objectWithoutProperties = __webpack_require__(96)['default'];
+  var _objectWithoutProperties = __webpack_require__(98)['default'];
 
-  var _extends = __webpack_require__(95)['default'];
+  var _extends = __webpack_require__(97)['default'];
 
   var _interopRequireDefault = __webpack_require__(1)['default'];
 
@@ -235,7 +235,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _coreLocation = __webpack_require__(15);
+  var _coreLocation = __webpack_require__(16);
 
   var _coreLocation2 = _interopRequireDefault(_coreLocation);
 
@@ -338,7 +338,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(31);
+  var _styleCss = __webpack_require__(33);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -350,7 +350,7 @@ module.exports =
 
   var _GwSkillDescription2 = _interopRequireDefault(_GwSkillDescription);
 
-  var _reactPopover = __webpack_require__(102);
+  var _reactPopover = __webpack_require__(104);
 
   var _reactPopover2 = _interopRequireDefault(_reactPopover);
 
@@ -470,7 +470,7 @@ module.exports =
   Object.defineProperty(exports, '__esModule', {
   	value: true
   });
-  exports['default'] = __webpack_require__(17);
+  exports['default'] = __webpack_require__(19);
   module.exports = exports['default'];
 
 /***/ },
@@ -487,7 +487,7 @@ module.exports =
 
   var _classCallCheck = __webpack_require__(3)['default'];
 
-  var _getIterator = __webpack_require__(94)['default'];
+  var _getIterator = __webpack_require__(17)['default'];
 
   var _interopRequireDefault = __webpack_require__(1)['default'];
 
@@ -499,7 +499,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(32);
+  var _styleCss = __webpack_require__(34);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -707,11 +707,11 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(33);
+  var _styleCss = __webpack_require__(35);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
-  var _context = __webpack_require__(20);
+  var _context = __webpack_require__(22);
 
   var _context2 = _interopRequireDefault(_context);
 
@@ -828,7 +828,7 @@ module.exports =
 
   var _GwSkill3 = _interopRequireDefault(_GwSkill2);
 
-  var _GwTraitDescription = __webpack_require__(21);
+  var _GwTraitDescription = __webpack_require__(23);
 
   var _GwTraitDescription2 = _interopRequireDefault(_GwTraitDescription);
 
@@ -868,11 +868,210 @@ module.exports =
   Object.defineProperty(exports, '__esModule', {
   	value: true
   });
-  exports['default'] = __webpack_require__(19);
+  exports['default'] = __webpack_require__(21);
   module.exports = exports['default'];
 
 /***/ },
 /* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+
+  var _get = __webpack_require__(5)['default'];
+
+  var _inherits = __webpack_require__(6)['default'];
+
+  var _createClass = __webpack_require__(4)['default'];
+
+  var _classCallCheck = __webpack_require__(3)['default'];
+
+  var _interopRequireDefault = __webpack_require__(1)['default'];
+
+  Object.defineProperty(exports, '__esModule', {
+  	value: true
+  });
+
+  var _react = __webpack_require__(2);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _styleCss = __webpack_require__(38);
+
+  var _styleCss2 = _interopRequireDefault(_styleCss);
+
+  var Step = (function (_Component) {
+  	_inherits(Step, _Component);
+
+  	function Step() {
+  		_classCallCheck(this, Step);
+
+  		_get(Object.getPrototypeOf(Step.prototype), 'constructor', this).apply(this, arguments);
+
+  		this.state = {
+  			index: 0
+  		};
+  	}
+
+  	_createClass(Step, [{
+  		key: 'render',
+  		value: function render() {
+  			var _this = this;
+
+  			var stepNumber = null;
+
+  			if (this.props.number) {
+  				stepNumber = _react2['default'].createElement(
+  					'h4',
+  					null,
+  					'Step ',
+  					this.props.number
+  				);
+  			}
+
+  			var figureList = null;
+
+  			if (this.getFigure().length > 1) {
+  				figureList = _react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].figureList },
+  					this.getFigureList()
+  				);
+  			}
+
+  			return _react2['default'].createElement(
+  				'div',
+  				{ className: _styleCss2['default'].step },
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].figure },
+  					this.getFigure().length > 0 && this.getFigure()[this.state.index]
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].description },
+  					stepNumber,
+  					_react2['default'].Children.toArray(this.props.children).filter(function (x) {
+  						return x.type != Figure && x.type != FigureDescription;
+  					}),
+  					_react2['default'].Children.toArray(this.props.children).filter(function (x) {
+  						return x.type == FigureDescription && x.props.forFigure == _this.state.index;
+  					}),
+  					figureList
+  				)
+  			);
+  		}
+  	}, {
+  		key: 'changeFigure',
+  		value: function changeFigure(index) {
+  			this.setState({ index: index });
+  		}
+  	}, {
+  		key: 'getFigure',
+  		value: function getFigure() {
+  			return _react2['default'].Children.toArray(this.props.children).filter(function (x) {
+  				return x.type == Figure;
+  			});
+  		}
+  	}, {
+  		key: 'getFigureList',
+  		value: function getFigureList() {
+  			var _this2 = this;
+
+  			return this.getFigure().map(function (figure, index) {
+  				var cls = _this2.state.index === index ? _styleCss2['default'].active : '';
+
+  				if (figure.props.children.type == 'video' && figure.props.children.props.poster) {
+  					figure = _react2['default'].createElement(
+  						Figure,
+  						{ key: index },
+  						_react2['default'].createElement('img', { src: figure.props.children.props.poster })
+  					);
+  				}
+
+  				return _react2['default'].createElement(
+  					'div',
+  					{ className: cls, onClick: _this2.changeFigure.bind(_this2, index), key: index },
+  					figure
+  				);
+  			});
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			number: _react2['default'].PropTypes.number
+  		},
+  		enumerable: true
+  	}]);
+
+  	return Step;
+  })(_react.Component);
+
+  exports.Step = Step;
+
+  var Figure = (function (_Component2) {
+  	_inherits(Figure, _Component2);
+
+  	function Figure() {
+  		_classCallCheck(this, Figure);
+
+  		_get(Object.getPrototypeOf(Figure.prototype), 'constructor', this).apply(this, arguments);
+  	}
+
+  	_createClass(Figure, [{
+  		key: 'render',
+  		value: function render() {
+  			return _react2['default'].createElement(
+  				'div',
+  				{ className: _styleCss2['default'].figureItem },
+  				this.props.children
+  			);
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			children: _react2['default'].PropTypes.element.isRequired
+  		},
+  		enumerable: true
+  	}]);
+
+  	return Figure;
+  })(_react.Component);
+
+  exports.Figure = Figure;
+
+  var FigureDescription = (function (_Component3) {
+  	_inherits(FigureDescription, _Component3);
+
+  	function FigureDescription() {
+  		_classCallCheck(this, FigureDescription);
+
+  		_get(Object.getPrototypeOf(FigureDescription.prototype), 'constructor', this).apply(this, arguments);
+  	}
+
+  	_createClass(FigureDescription, [{
+  		key: 'render',
+  		value: function render() {
+  			return _react2['default'].createElement(
+  				'div',
+  				null,
+  				this.props.children
+  			);
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			forFigure: _react2['default'].PropTypes.number.isRequired
+  		},
+  		enumerable: true
+  	}]);
+
+  	return FigureDescription;
+  })(_react.Component);
+
+  exports.FigureDescription = FigureDescription;
+
+/***/ },
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -889,17 +1088,17 @@ module.exports =
     value: true
   });
 
-  var _fbjsLibExecutionEnvironment = __webpack_require__(16);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(18);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(98);
+  var _historyLibCreateBrowserHistory = __webpack_require__(100);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(99);
+  var _historyLibCreateMemoryHistory = __webpack_require__(101);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(100);
+  var _historyLibUseQueries = __webpack_require__(102);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -909,112 +1108,32 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports) {
 
-  module.exports = require("fbjs/lib/ExecutionEnvironment");
-
-/***/ },
-/* 17 */
-/***/ function(module, exports, __webpack_require__) {
-
-  var map = {
-  	"./15795.json": 38,
-  	"./21647.json": 39,
-  	"./5521.json": 40,
-  	"./5525.json": 41,
-  	"./5530.json": 42,
-  	"./5546.json": 43,
-  	"./5555.json": 44,
-  	"./5623.json": 45,
-  	"./5639.json": 46,
-  	"./5641.json": 47
-  };
-  function webpackContext(req) {
-  	return __webpack_require__(webpackContextResolve(req));
-  };
-  function webpackContextResolve(req) {
-  	return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
-  };
-  webpackContext.keys = function webpackContextKeys() {
-  	return Object.keys(map);
-  };
-  webpackContext.resolve = webpackContextResolve;
-  module.exports = webpackContext;
-  webpackContext.id = 17;
-
+  module.exports = require("babel-runtime/core-js/get-iterator");
 
 /***/ },
 /* 18 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-  var map = {
-  	"./26.json": 48,
-  	"./41.json": 49,
-  	"./48.json": 50
-  };
-  function webpackContext(req) {
-  	return __webpack_require__(webpackContextResolve(req));
-  };
-  function webpackContextResolve(req) {
-  	return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
-  };
-  webpackContext.keys = function webpackContextKeys() {
-  	return Object.keys(map);
-  };
-  webpackContext.resolve = webpackContextResolve;
-  module.exports = webpackContext;
-  webpackContext.id = 18;
-
+  module.exports = require("fbjs/lib/ExecutionEnvironment");
 
 /***/ },
 /* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
   var map = {
-  	"./1232.json": 51,
-  	"./1277.json": 52,
-  	"./1279.json": 53,
-  	"./1280.json": 54,
-  	"./1281.json": 55,
-  	"./1282.json": 56,
-  	"./1289.json": 57,
-  	"./1502.json": 58,
-  	"./1503.json": 59,
-  	"./1507.json": 60,
-  	"./1508.json": 61,
-  	"./1672.json": 62,
-  	"./1674.json": 63,
-  	"./1839.json": 64,
-  	"./1886.json": 65,
-  	"./1891.json": 66,
-  	"./1902.json": 67,
-  	"./1938.json": 68,
-  	"./1948.json": 69,
-  	"./1952.json": 70,
-  	"./1962.json": 71,
-  	"./1986.json": 72,
-  	"./2015.json": 73,
-  	"./2025.json": 74,
-  	"./2033.json": 75,
-  	"./214.json": 76,
-  	"./221.json": 77,
-  	"./222.json": 78,
-  	"./223.json": 79,
-  	"./224.json": 80,
-  	"./226.json": 81,
-  	"./227.json": 82,
-  	"./229.json": 83,
-  	"./232.json": 84,
-  	"./275.json": 85,
-  	"./277.json": 86,
-  	"./278.json": 87,
-  	"./279.json": 88,
-  	"./280.json": 89,
-  	"./281.json": 90,
-  	"./282.json": 91,
-  	"./287.json": 92,
-  	"./289.json": 93
+  	"./15795.json": 41,
+  	"./21647.json": 42,
+  	"./5521.json": 43,
+  	"./5525.json": 44,
+  	"./5530.json": 45,
+  	"./5546.json": 46,
+  	"./5555.json": 47,
+  	"./5623.json": 48,
+  	"./5639.json": 49,
+  	"./5641.json": 50
   };
   function webpackContext(req) {
   	return __webpack_require__(webpackContextResolve(req));
@@ -1034,16 +1153,102 @@ module.exports =
 /* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
+  var map = {
+  	"./26.json": 51,
+  	"./41.json": 52,
+  	"./48.json": 53
+  };
+  function webpackContext(req) {
+  	return __webpack_require__(webpackContextResolve(req));
+  };
+  function webpackContextResolve(req) {
+  	return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
+  };
+  webpackContext.keys = function webpackContextKeys() {
+  	return Object.keys(map);
+  };
+  webpackContext.resolve = webpackContextResolve;
+  module.exports = webpackContext;
+  webpackContext.id = 20;
+
+
+/***/ },
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+  var map = {
+  	"./1232.json": 54,
+  	"./1277.json": 55,
+  	"./1279.json": 56,
+  	"./1280.json": 57,
+  	"./1281.json": 58,
+  	"./1282.json": 59,
+  	"./1289.json": 60,
+  	"./1502.json": 61,
+  	"./1503.json": 62,
+  	"./1507.json": 63,
+  	"./1508.json": 64,
+  	"./1672.json": 65,
+  	"./1674.json": 66,
+  	"./1839.json": 67,
+  	"./1886.json": 68,
+  	"./1891.json": 69,
+  	"./1902.json": 70,
+  	"./1938.json": 71,
+  	"./1948.json": 72,
+  	"./1952.json": 73,
+  	"./1962.json": 74,
+  	"./1986.json": 75,
+  	"./2015.json": 76,
+  	"./2025.json": 77,
+  	"./2033.json": 78,
+  	"./214.json": 79,
+  	"./221.json": 80,
+  	"./222.json": 81,
+  	"./223.json": 82,
+  	"./224.json": 83,
+  	"./226.json": 84,
+  	"./227.json": 85,
+  	"./229.json": 86,
+  	"./232.json": 87,
+  	"./275.json": 88,
+  	"./277.json": 89,
+  	"./278.json": 90,
+  	"./279.json": 91,
+  	"./280.json": 92,
+  	"./281.json": 93,
+  	"./282.json": 94,
+  	"./287.json": 95,
+  	"./289.json": 96
+  };
+  function webpackContext(req) {
+  	return __webpack_require__(webpackContextResolve(req));
+  };
+  function webpackContextResolve(req) {
+  	return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
+  };
+  webpackContext.keys = function webpackContextKeys() {
+  	return Object.keys(map);
+  };
+  webpackContext.resolve = webpackContextResolve;
+  module.exports = webpackContext;
+  webpackContext.id = 21;
+
+
+/***/ },
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
   'use strict';
 
   Object.defineProperty(exports, '__esModule', {
   	value: true
   });
-  exports['default'] = __webpack_require__(18);
+  exports['default'] = __webpack_require__(20);
   module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1097,7 +1302,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1112,9 +1317,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(34);
+  __webpack_require__(36);
 
-  var _Navigation = __webpack_require__(23);
+  var _Navigation = __webpack_require__(25);
 
   var _Navigation2 = _interopRequireDefault(_Navigation);
 
@@ -1137,7 +1342,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1152,7 +1357,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _styleCss = __webpack_require__(35);
+  var _styleCss = __webpack_require__(37);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -1203,170 +1408,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 24 */
-/***/ function(module, exports, __webpack_require__) {
-
-  'use strict';
-
-  var _get = __webpack_require__(5)['default'];
-
-  var _inherits = __webpack_require__(6)['default'];
-
-  var _createClass = __webpack_require__(4)['default'];
-
-  var _classCallCheck = __webpack_require__(3)['default'];
-
-  var _interopRequireDefault = __webpack_require__(1)['default'];
-
-  Object.defineProperty(exports, '__esModule', {
-  	value: true
-  });
-
-  var _react = __webpack_require__(2);
-
-  var _react2 = _interopRequireDefault(_react);
-
-  var _styleCss = __webpack_require__(36);
-
-  var _styleCss2 = _interopRequireDefault(_styleCss);
-
-  var Step = (function (_Component) {
-  	_inherits(Step, _Component);
-
-  	function Step() {
-  		_classCallCheck(this, Step);
-
-  		_get(Object.getPrototypeOf(Step.prototype), 'constructor', this).apply(this, arguments);
-
-  		this.state = {
-  			index: 0
-  		};
-  	}
-
-  	_createClass(Step, [{
-  		key: 'render',
-  		value: function render() {
-  			var stepNumber = null;
-
-  			if (this.props.number) {
-  				stepNumber = _react2['default'].createElement(
-  					'h4',
-  					null,
-  					'Step ',
-  					this.props.number
-  				);
-  			}
-
-  			var figureList = null;
-
-  			if (this.getFigure().length > 1) {
-  				figureList = _react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].figureList },
-  					this.getFigureList()
-  				);
-  			}
-
-  			return _react2['default'].createElement(
-  				'div',
-  				{ className: _styleCss2['default'].step },
-  				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].figure },
-  					this.getFigure().length > 0 && this.getFigure()[this.state.index]
-  				),
-  				_react2['default'].createElement(
-  					'div',
-  					{ className: _styleCss2['default'].description },
-  					stepNumber,
-  					_react2['default'].Children.toArray(this.props.children).filter(function (x) {
-  						return x.type != Figure;
-  					}),
-  					figureList
-  				)
-  			);
-  		}
-  	}, {
-  		key: 'changeFigure',
-  		value: function changeFigure(index) {
-  			this.setState({ index: index });
-  		}
-  	}, {
-  		key: 'getFigure',
-  		value: function getFigure() {
-  			return _react2['default'].Children.toArray(this.props.children).filter(function (x) {
-  				return x.type == Figure;
-  			});
-  		}
-  	}, {
-  		key: 'getFigureList',
-  		value: function getFigureList() {
-  			var _this = this;
-
-  			return this.getFigure().map(function (figure, index) {
-  				var cls = _this.state.index === index ? _styleCss2['default'].active : '';
-
-  				if (figure.props.children.type == 'video' && figure.props.children.props.poster) {
-  					figure = _react2['default'].createElement(
-  						Figure,
-  						{ key: index },
-  						_react2['default'].createElement('img', { src: figure.props.children.props.poster })
-  					);
-  				}
-
-  				return _react2['default'].createElement(
-  					'div',
-  					{ className: cls, onClick: _this.changeFigure.bind(_this, index), key: index },
-  					figure
-  				);
-  			});
-  		}
-  	}], [{
-  		key: 'propTypes',
-  		value: {
-  			number: _react2['default'].PropTypes.number
-  		},
-  		enumerable: true
-  	}]);
-
-  	return Step;
-  })(_react.Component);
-
-  exports.Step = Step;
-
-  var Figure = (function (_Component2) {
-  	_inherits(Figure, _Component2);
-
-  	function Figure() {
-  		_classCallCheck(this, Figure);
-
-  		_get(Object.getPrototypeOf(Figure.prototype), 'constructor', this).apply(this, arguments);
-  	}
-
-  	_createClass(Figure, [{
-  		key: 'render',
-  		value: function render() {
-  			return _react2['default'].createElement(
-  				'div',
-  				{ className: _styleCss2['default'].figureItem },
-  				this.props.children
-  			);
-  		}
-  	}], [{
-  		key: 'propTypes',
-  		value: {
-  			children: _react2['default'].PropTypes.element.isRequired
-  		},
-  		enumerable: true
-  	}]);
-
-  	return Figure;
-  })(_react.Component);
-
-  exports.Figure = Figure;
-
-/***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1393,7 +1435,7 @@ module.exports =
 
   var _GwSpec2 = _interopRequireDefault(_GwSpec);
 
-  var _styleCss = __webpack_require__(37);
+  var _styleCss = __webpack_require__(39);
 
   var _styleCss2 = _interopRequireDefault(_styleCss);
 
@@ -1499,7 +1541,237 @@ module.exports =
   exports.Explaination = Explaination;
 
 /***/ },
-/* 26 */
+/* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+
+  var _get = __webpack_require__(5)['default'];
+
+  var _inherits = __webpack_require__(6)['default'];
+
+  var _createClass = __webpack_require__(4)['default'];
+
+  var _classCallCheck = __webpack_require__(3)['default'];
+
+  var _getIterator = __webpack_require__(17)['default'];
+
+  var _interopRequireDefault = __webpack_require__(1)['default'];
+
+  Object.defineProperty(exports, '__esModule', {
+  	value: true
+  });
+
+  var _react = __webpack_require__(2);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _styleCss = __webpack_require__(40);
+
+  var _styleCss2 = _interopRequireDefault(_styleCss);
+
+  var WurmVideo = (function (_Component) {
+  	_inherits(WurmVideo, _Component);
+
+  	function WurmVideo() {
+  		_classCallCheck(this, WurmVideo);
+
+  		_get(Object.getPrototypeOf(WurmVideo.prototype), 'constructor', this).apply(this, arguments);
+
+  		this.state = {
+  			time: 0,
+  			show: 2
+  		};
+  	}
+
+  	_createClass(WurmVideo, [{
+  		key: 'render',
+  		value: function render() {
+  			var cooldown = [];
+
+  			if (this.state.show > 0) {
+  				cooldown = [_react2['default'].createElement(Cooldown, { key: 'husk', cast: this.props.husk, time: this.state.time, display: this.state.show, name: 'Husk', cooldown: 100 }), _react2['default'].createElement(Cooldown, { key: 'egg', cast: this.props.egg, time: this.state.time, display: this.state.show, name: 'Egg', cooldown: 50 })];
+  			}
+
+  			return _react2['default'].createElement(
+  				'div',
+  				{ className: _styleCss2['default'].container },
+  				_react2['default'].createElement(
+  					'div',
+  					null,
+  					_react2['default'].createElement('video', { src: this.props.src, preload: 'auto', controls: true, onTimeUpdate: this.onTimeUpdate.bind(this) })
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].toolbar },
+  					_react2['default'].createElement(
+  						'strong',
+  						null,
+  						'Show cooldown'
+  					),
+  					': ',
+  					_react2['default'].createElement(
+  						'a',
+  						{ href: '#', onClick: this.setShow.bind(this, 0) },
+  						'None'
+  					),
+  					' · ',
+  					_react2['default'].createElement(
+  						'a',
+  						{ href: '#', onClick: this.setShow.bind(this, 1) },
+  						'No countdown'
+  					),
+  					' · ',
+  					_react2['default'].createElement(
+  						'a',
+  						{ href: '#', onClick: this.setShow.bind(this, 2) },
+  						'Full'
+  					)
+  				),
+  				cooldown
+  			);
+  		}
+  	}, {
+  		key: 'onTimeUpdate',
+  		value: function onTimeUpdate(e) {
+  			this.setState({ time: e.target.currentTime });
+  		}
+  	}, {
+  		key: 'setShow',
+  		value: function setShow(type, e) {
+  			this.setState({ show: type });
+  			e.preventDefault();
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			src: _react2['default'].PropTypes.string.isRequired,
+  			egg: _react2['default'].PropTypes.arrayOf(_react2['default'].PropTypes.number),
+  			husk: _react2['default'].PropTypes.arrayOf(_react2['default'].PropTypes.number)
+  		},
+  		enumerable: true
+  	}]);
+
+  	return WurmVideo;
+  })(_react.Component);
+
+  exports['default'] = WurmVideo;
+
+  var Cooldown = (function (_Component2) {
+  	_inherits(Cooldown, _Component2);
+
+  	function Cooldown() {
+  		_classCallCheck(this, Cooldown);
+
+  		_get(Object.getPrototypeOf(Cooldown.prototype), 'constructor', this).apply(this, arguments);
+  	}
+
+  	_createClass(Cooldown, [{
+  		key: 'render',
+  		value: function render() {
+  			var lastCast = this.getLastCast();
+  			var nextExpected = lastCast + this.props.cooldown;
+  			if (lastCast === 0) {
+  				nextExpected = 0;
+  			}
+
+  			var timeLeft = Math.max(0, nextExpected - this.props.time);
+  			var percent = timeLeft / this.props.cooldown * 90;
+  			var cooldownState = timeLeft <= 0 ? _styleCss2['default'].offcooldown : _styleCss2['default'].oncooldown;
+  			var cls = undefined;
+
+  			var casting = this.props.time - lastCast < 6;
+
+  			switch (this.props.display) {
+  				case 0:
+  					return _react2['default'].createElement('noscript', null);
+  				case 1:
+  					cls = [_styleCss2['default'].miniCooldown, cooldownState];
+  					if (casting) {
+  						cls.push(_styleCss2['default'].casting);
+  					}
+  					return _react2['default'].createElement(
+  						'div',
+  						{ className: cls.join(' ') },
+  						this.props.name
+  					);
+  				default:
+  					cls = [_styleCss2['default'].skillName, cooldownState];
+  					var barCls = [_styleCss2['default'].bar];
+  					if (casting) {
+  						cls.push(_styleCss2['default'].casting);
+  						barCls.push(_styleCss2['default'].casting);
+  					}
+  					return _react2['default'].createElement(
+  						'div',
+  						{ className: _styleCss2['default'].cooldown },
+  						_react2['default'].createElement(
+  							'div',
+  							{ className: cls.join(' ') },
+  							this.props.name
+  						),
+  						_react2['default'].createElement(
+  							'div',
+  							{ className: _styleCss2['default'].timer },
+  							Math.ceil(timeLeft)
+  						),
+  						_react2['default'].createElement('div', { className: barCls.join(' '), style: { width: percent + '%' } })
+  					);
+  			}
+  		}
+  	}, {
+  		key: 'getLastCast',
+  		value: function getLastCast() {
+  			var prev = 0;
+  			var _iteratorNormalCompletion = true;
+  			var _didIteratorError = false;
+  			var _iteratorError = undefined;
+
+  			try {
+  				for (var _iterator = _getIterator(this.props.cast), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+  					var cast = _step.value;
+
+  					if (cast > this.props.time) {
+  						return prev;
+  					}
+  					prev = cast;
+  				}
+  			} catch (err) {
+  				_didIteratorError = true;
+  				_iteratorError = err;
+  			} finally {
+  				try {
+  					if (!_iteratorNormalCompletion && _iterator['return']) {
+  						_iterator['return']();
+  					}
+  				} finally {
+  					if (_didIteratorError) {
+  						throw _iteratorError;
+  					}
+  				}
+  			}
+
+  			return prev;
+  		}
+  	}], [{
+  		key: 'propTypes',
+  		value: {
+  			cast: _react2['default'].PropTypes.arrayOf(_react2['default'].PropTypes.number),
+  			time: _react2['default'].PropTypes.number.isRequired,
+  			display: _react2['default'].PropTypes.number,
+  			name: _react2['default'].PropTypes.string,
+  			cooldown: _react2['default'].PropTypes.number.isRequired
+  		},
+  		enumerable: true
+  	}]);
+
+  	return Cooldown;
+  })(_react.Component);
+
+  module.exports = exports['default'];
+
+/***/ },
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1568,7 +1840,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1643,7 +1915,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1674,6 +1946,12 @@ module.exports =
 
   var _componentsLink2 = _interopRequireDefault(_componentsLink);
 
+  var _componentsStep = __webpack_require__(15);
+
+  var _componentsWurmVideo = __webpack_require__(27);
+
+  var _componentsWurmVideo2 = _interopRequireDefault(_componentsWurmVideo);
+
   var _default = (function (_Component) {
   	_inherits(_default, _Component);
 
@@ -1697,13 +1975,299 @@ module.exports =
   						null,
   						'Animation guide'
   					),
-  					'Soon ',
   					_react2['default'].createElement(
-  						'sup',
+  						'p',
   						null,
-  						'TM'
+  						'Knowing the animation and the attack cycle is the key to successful blocking. The wurm has several animations:'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						{ className: _styleCss2['default'].tip },
+  						'Many of these animations are present at Great Jungle Wurm at Caledon Forest.'
   					)
-  				)
+  				),
+  				_react2['default'].createElement(
+  					_componentsStep.Step,
+  					null,
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 0 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							'Husk spit'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Spawn 3 husks, one per direction'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							_react2['default'].createElement(
+  								'strong',
+  								null,
+  								'Cooldown'
+  							),
+  							': 100s for Crimson/Amber, 90s for Cobalt'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 1 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							'Egg spit'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Spawn 9 eggs, 3 per direction. If not destroyed the eggs will spawn larvae.'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							_react2['default'].createElement(
+  								'strong',
+  								null,
+  								'Cooldown'
+  							),
+  							': 50s for Crimson/Amber, 45s for Cobalt'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 2 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							'Large Spin'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Damage and knockback'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 3 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							'Small spin'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Damage and knockback. Spit several AOE drools in the area.'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 4 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							_react2['default'].createElement(
+  								'span',
+  								{ className: _styleCss2['default'].amber },
+  								'Amber'
+  							),
+  							' Moving underground'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Eat the zerg. Will be the next animation after 20 people with wurm attractant buff stacked.'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 5 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							_react2['default'].createElement(
+  								'span',
+  								{ className: _styleCss2['default'].amber },
+  								'Amber'
+  							),
+  							' Spitting zerg'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Spit the zerg out. Will be the next animation after pyloric valve is destroyed.'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							{ className: _styleCss2['default'].tip },
+  							'This animation is the same as fear animation from Great Jungle Wurm at Caledon Forest.'
+  						)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.Figure,
+  						null,
+  						_react2['default'].createElement('video', null)
+  					),
+  					_react2['default'].createElement(
+  						_componentsStep.FigureDescription,
+  						{ forFigure: 6 },
+  						_react2['default'].createElement(
+  							'h4',
+  							null,
+  							_react2['default'].createElement(
+  								'span',
+  								{ className: _styleCss2['default'].cobalt },
+  								'Cobalt'
+  							),
+  							' Eating keg'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							null,
+  							'Occur when burn phase triggered.'
+  						),
+  						_react2['default'].createElement(
+  							'p',
+  							{ className: _styleCss2['default'].tip },
+  							'This animation is the same as Great Jungle Wurm\'s eating summoned husk.'
+  						)
+  					)
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].container },
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'The animation you should be on the watch are husk and egg spits. They use the same animation, but has varying cooldown. With this difference in cooldown, a cycle can be derived:'
+  					),
+  					_react2['default'].createElement(
+  						'ol',
+  						null,
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Start with 2 large spins'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							_react2['default'].createElement(
+  								'strong',
+  								null,
+  								'Spit twice in a row'
+  							)
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Small spin'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Large spin'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'A few more alternating spin/idle'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							_react2['default'].createElement(
+  								'strong',
+  								null,
+  								'Egg spit'
+  							)
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Large spin'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'Small spin'
+  						),
+  						_react2['default'].createElement(
+  							'li',
+  							null,
+  							'A few more spins, then repeat from 2',
+  							_react2['default'].createElement(
+  								'div',
+  								{ className: _styleCss2['default'].tip },
+  								'1-2 spins could be added between the two spits on the repeating cycle, but never on the starting cycle'
+  							)
+  						)
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'Note that once both husks and eggs are off cooldown, it can use both skill in any order.'
+  					),
+  					_react2['default'].createElement(
+  						'p',
+  						{ className: _styleCss2['default'].warn },
+  						_react2['default'].createElement(
+  							'strong',
+  							null,
+  							'The wurm does not operate on a cycle'
+  						),
+  						', rather the cycle is a simplification of the cooldown. If animation outside of the cycle (eg. burn phase, eating the zerg) happen the cycle could be inaccurate.'
+  					)
+  				),
+  				_react2['default'].createElement(
+  					'div',
+  					{ className: _styleCss2['default'].container },
+  					_react2['default'].createElement(
+  						'p',
+  						null,
+  						'This video demonstrate a blocking attempt at Crimson. A husk and eggs cooldown timer is provided, but should be disabled to simulate in game attempt.'
+  					)
+  				),
+  				_react2['default'].createElement(_componentsWurmVideo2['default'], {
+  					src: '/animation.webm',
+  					egg: [29, 120, 170, 241, 292, 358, 464, 570, 654, 704, 772, 823],
+  					husk: [37, 138, 249, 350, 456, 562, 662, 780]
+  				})
   			);
   		}
   	}]);
@@ -1715,7 +2279,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -1758,9 +2322,9 @@ module.exports =
 
   var _componentsGwTrait2 = _interopRequireDefault(_componentsGwTrait);
 
-  var _componentsTraitExplaination = __webpack_require__(25);
+  var _componentsTraitExplaination = __webpack_require__(26);
 
-  var _componentsStep = __webpack_require__(24);
+  var _componentsStep = __webpack_require__(15);
 
   var _default = (function (_Component) {
   	_inherits(_default, _Component);
@@ -2291,7 +2855,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2448,55 +3012,62 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
   module.exports = {"skill":"_2GJ3Em1tADf-zMCe7jPm4v"};
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
   module.exports = {"skill":"_3IzAHf5lDBcuhOtRPGqndw","description":"_1Up85ku6KDrKgUaxINb-gR","cast":"_3LWYDg4_wOwVWMiKjCyEHe","facts":"_1oydZ9Swry6JSVB2fy-xml","icon":"_2qRLmjpAcwmvoChWNHY31C","stack":"_1fukw2w8MaN_fp9-XbHIYw","detail":"_1EcCc70-W0aaSUwnJj45W3"};
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
   module.exports = {"spec":"_1OwXsC6K8ORvj6SK2IBT1w","specName":"_3e2XwdDCCQrEkCvs1MR8wc","specIcon":"_3RCNb2STd4ncFtxiIeVQcG","trait":"_2IGSH6-KO_Wy8HfLU2aJgG","unhighlight":"_1kovXQynRn05Bw0RzpfhzM","specWrap":"_3Kx6sFWcxP151dXOdR5p0p"};
 
 /***/ },
-/* 34 */
-/***/ function(module, exports) {
-
-  // removed by extract-text-webpack-plugin
-
-/***/ },
-/* 35 */
-/***/ function(module, exports) {
-
-  // removed by extract-text-webpack-plugin
-  module.exports = {"nav":"_1wP3z47NNs6jmxwufvYhg2","main":"_1r2gydHXaLeFog2HxbsBB5"};
-
-/***/ },
 /* 36 */
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
-  module.exports = {"step":"maAhOXAOJgFWbOoVG9ELu","description":"_34YnO3E_7xFYPyvyrQdy0N","figure":"_2sXG6Qy9ttHawhrKMrUTo4","figureItem":"MISJBmcfHXwn4zeF50PYU","figureList":"_3exJNv7jjaSsQaxdgN5Sjz","active":"iT1Hzgoi5rbrfYaBFC0Be"};
 
 /***/ },
 /* 37 */
 /***/ function(module, exports) {
 
   // removed by extract-text-webpack-plugin
-  module.exports = {"traitExplaination":"_3vLeBN5a1JDbNBQIeW-rHd","spec":"_3hpvOiqVOwDv-9LJZiSXe-","explain":"_2WYL4RHm0OxG3jzkmTjZ_e"};
+  module.exports = {"nav":"_1wP3z47NNs6jmxwufvYhg2","main":"_1r2gydHXaLeFog2HxbsBB5"};
 
 /***/ },
 /* 38 */
+/***/ function(module, exports) {
+
+  // removed by extract-text-webpack-plugin
+  module.exports = {"step":"maAhOXAOJgFWbOoVG9ELu","description":"_34YnO3E_7xFYPyvyrQdy0N","figure":"_2sXG6Qy9ttHawhrKMrUTo4","figureItem":"MISJBmcfHXwn4zeF50PYU","figureList":"_3exJNv7jjaSsQaxdgN5Sjz","active":"iT1Hzgoi5rbrfYaBFC0Be"};
+
+/***/ },
+/* 39 */
+/***/ function(module, exports) {
+
+  // removed by extract-text-webpack-plugin
+  module.exports = {"traitExplaination":"_3vLeBN5a1JDbNBQIeW-rHd","spec":"_3hpvOiqVOwDv-9LJZiSXe-","explain":"_2WYL4RHm0OxG3jzkmTjZ_e"};
+
+/***/ },
+/* 40 */
+/***/ function(module, exports) {
+
+  // removed by extract-text-webpack-plugin
+  module.exports = {"container":"_23qa-jdlw59kAYIAyr4c_7","toolbar":"gJWO6sbY2x1IExn3J7oUh","cooldown":"_2c-49ikMECzc7feDm9LrVb","skillName":"_1AzWGMK7wm8zfy316x1Rh8","bar":"_1jXDy8DgeghKe6N9sOzqSm","timer":"_2W4AFXXbb4iKJy4E4pFg8v","offcooldown":"phYFdrJgq6Sxy1CpDpR84","oncooldown":"_1AK1EY0P4ur9drYSZMB1Pi","casting":"_20YNyH7XcKXB2FekTw1o67","miniCooldown":"ZWDlGiRU5hKFn4KFObBqA"};
+
+/***/ },
+/* 41 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2541,7 +3112,7 @@ module.exports =
   };
 
 /***/ },
-/* 39 */
+/* 42 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2596,7 +3167,7 @@ module.exports =
   };
 
 /***/ },
-/* 40 */
+/* 43 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2633,7 +3204,7 @@ module.exports =
   };
 
 /***/ },
-/* 41 */
+/* 44 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2705,7 +3276,7 @@ module.exports =
   };
 
 /***/ },
-/* 42 */
+/* 45 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2743,7 +3314,7 @@ module.exports =
   };
 
 /***/ },
-/* 43 */
+/* 46 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2813,7 +3384,7 @@ module.exports =
   };
 
 /***/ },
-/* 44 */
+/* 47 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2883,7 +3454,7 @@ module.exports =
   };
 
 /***/ },
-/* 45 */
+/* 48 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2922,7 +3493,7 @@ module.exports =
   };
 
 /***/ },
-/* 46 */
+/* 49 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -2974,7 +3545,7 @@ module.exports =
   };
 
 /***/ },
-/* 47 */
+/* 50 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3029,7 +3600,7 @@ module.exports =
   };
 
 /***/ },
-/* 48 */
+/* 51 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3058,7 +3629,7 @@ module.exports =
   };
 
 /***/ },
-/* 49 */
+/* 52 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3087,7 +3658,7 @@ module.exports =
   };
 
 /***/ },
-/* 50 */
+/* 53 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3116,7 +3687,7 @@ module.exports =
   };
 
 /***/ },
-/* 51 */
+/* 54 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3130,7 +3701,7 @@ module.exports =
   };
 
 /***/ },
-/* 52 */
+/* 55 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3173,7 +3744,7 @@ module.exports =
   };
 
 /***/ },
-/* 53 */
+/* 56 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3231,7 +3802,7 @@ module.exports =
   };
 
 /***/ },
-/* 54 */
+/* 57 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3261,7 +3832,7 @@ module.exports =
   };
 
 /***/ },
-/* 55 */
+/* 58 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3289,7 +3860,7 @@ module.exports =
   };
 
 /***/ },
-/* 56 */
+/* 59 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3317,7 +3888,7 @@ module.exports =
   };
 
 /***/ },
-/* 57 */
+/* 60 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3342,7 +3913,7 @@ module.exports =
   };
 
 /***/ },
-/* 58 */
+/* 61 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3427,7 +3998,7 @@ module.exports =
   };
 
 /***/ },
-/* 59 */
+/* 62 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3449,7 +4020,7 @@ module.exports =
   };
 
 /***/ },
-/* 60 */
+/* 63 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3477,7 +4048,7 @@ module.exports =
   };
 
 /***/ },
-/* 61 */
+/* 64 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3499,7 +4070,7 @@ module.exports =
   };
 
 /***/ },
-/* 62 */
+/* 65 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3539,7 +4110,7 @@ module.exports =
   };
 
 /***/ },
-/* 63 */
+/* 66 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3564,7 +4135,7 @@ module.exports =
   };
 
 /***/ },
-/* 64 */
+/* 67 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3660,7 +4231,7 @@ module.exports =
   };
 
 /***/ },
-/* 65 */
+/* 68 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3736,7 +4307,7 @@ module.exports =
   };
 
 /***/ },
-/* 66 */
+/* 69 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3776,7 +4347,7 @@ module.exports =
   };
 
 /***/ },
-/* 67 */
+/* 70 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3810,7 +4381,7 @@ module.exports =
   };
 
 /***/ },
-/* 68 */
+/* 71 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3835,7 +4406,7 @@ module.exports =
   };
 
 /***/ },
-/* 69 */
+/* 72 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3866,7 +4437,7 @@ module.exports =
   };
 
 /***/ },
-/* 70 */
+/* 73 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3932,7 +4503,7 @@ module.exports =
   };
 
 /***/ },
-/* 71 */
+/* 74 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -3974,7 +4545,7 @@ module.exports =
   };
 
 /***/ },
-/* 72 */
+/* 75 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4029,7 +4600,7 @@ module.exports =
   };
 
 /***/ },
-/* 73 */
+/* 76 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4063,7 +4634,7 @@ module.exports =
   };
 
 /***/ },
-/* 74 */
+/* 77 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4435,7 +5006,7 @@ module.exports =
   };
 
 /***/ },
-/* 75 */
+/* 78 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4484,7 +5055,7 @@ module.exports =
   };
 
 /***/ },
-/* 76 */
+/* 79 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4523,7 +5094,7 @@ module.exports =
   };
 
 /***/ },
-/* 77 */
+/* 80 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4545,7 +5116,7 @@ module.exports =
   };
 
 /***/ },
-/* 78 */
+/* 81 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4581,7 +5152,7 @@ module.exports =
   };
 
 /***/ },
-/* 79 */
+/* 82 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4611,7 +5182,7 @@ module.exports =
   };
 
 /***/ },
-/* 80 */
+/* 83 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4636,7 +5207,7 @@ module.exports =
   };
 
 /***/ },
-/* 81 */
+/* 84 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4664,7 +5235,7 @@ module.exports =
   };
 
 /***/ },
-/* 82 */
+/* 85 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4698,7 +5269,7 @@ module.exports =
   };
 
 /***/ },
-/* 83 */
+/* 86 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4780,7 +5351,7 @@ module.exports =
   };
 
 /***/ },
-/* 84 */
+/* 87 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4804,7 +5375,7 @@ module.exports =
   };
 
 /***/ },
-/* 85 */
+/* 88 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4828,7 +5399,7 @@ module.exports =
   };
 
 /***/ },
-/* 86 */
+/* 89 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4883,7 +5454,7 @@ module.exports =
   };
 
 /***/ },
-/* 87 */
+/* 90 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4906,7 +5477,7 @@ module.exports =
   };
 
 /***/ },
-/* 88 */
+/* 91 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4949,7 +5520,7 @@ module.exports =
   };
 
 /***/ },
-/* 89 */
+/* 92 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -4977,7 +5548,7 @@ module.exports =
   };
 
 /***/ },
-/* 90 */
+/* 93 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -5014,7 +5585,7 @@ module.exports =
   };
 
 /***/ },
-/* 91 */
+/* 94 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -5079,7 +5650,7 @@ module.exports =
   };
 
 /***/ },
-/* 92 */
+/* 95 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -5101,7 +5672,7 @@ module.exports =
   };
 
 /***/ },
-/* 93 */
+/* 96 */
 /***/ function(module, exports) {
 
   module.exports = {
@@ -5126,55 +5697,49 @@ module.exports =
   };
 
 /***/ },
-/* 94 */
-/***/ function(module, exports) {
-
-  module.exports = require("babel-runtime/core-js/get-iterator");
-
-/***/ },
-/* 95 */
+/* 97 */
 /***/ function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/extends");
 
 /***/ },
-/* 96 */
+/* 98 */
 /***/ function(module, exports) {
 
   module.exports = require("babel-runtime/helpers/object-without-properties");
 
 /***/ },
-/* 97 */
+/* 99 */
 /***/ function(module, exports) {
 
   module.exports = require("babel-runtime/regenerator");
 
 /***/ },
-/* 98 */
+/* 100 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 99 */
+/* 101 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 100 */
+/* 102 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 101 */
+/* 103 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
 
 /***/ },
-/* 102 */
+/* 104 */
 /***/ function(module, exports) {
 
   module.exports = require("react-popover");
